@@ -1,0 +1,55 @@
+body {
+   background-color: #000;
+   font-family: "Myriad Pro";
+}
+.main {
+   max-width: 1200px;
+   height: 420px;
+   /* border: 1px solid gray; */
+   margin: 250px auto;
+   text-align: center;
+}
+
+.logo {
+   margin: 119px 0 0 0;
+}
+h2 {
+   margin: 51px 0 0 0;
+   text-transform: uppercase;
+   color: #fff;
+   font-size: 19px;
+   letter-spacing: 3px;
+}
+
+.line {
+   width: 230px;
+   border-bottom: solid 1px #aaa;
+   box-shadow: 0 0 1px #fefbfc inset;
+   margin: 20px auto;
+}
+
+.soсial {
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+}
+.twitter {
+   margin: 0 18px 0 35px;
+}
+.google {
+   margin: 0 24px 0 18px;
+}
+
+.footer {
+   margin: 89px 0 42px 0;
+   text-align: center;
+   color: #efefef;
+}
+
+p {
+   font-size: 18px;
+}
+
+span {
+   color: #19c8fa;
+}
