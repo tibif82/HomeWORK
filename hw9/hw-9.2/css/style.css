@@ -1,0 +1,275 @@
+@font-face {
+   font-family: "FuturaPT";
+
+   src: url("../fonts/WebFont.eot");
+
+   src: url("../fonts/WebFont.eot?iefix") format("eot"), url("../fonts/WebFont.woff") format("woff"),
+      url("../fonts/FuturaPT.ttf") format("truetype"), url("../fonts/WebFont.svg#webfont") format("svg");
+
+   font-weight: Heavy;
+
+   font-style: normal;
+}
+
+/* body {
+   background-color: #6c6c6c;
+} */
+.main {
+   padding: 149px 0 0 0;
+   width: 1200px;
+   height: 900px;
+   background-color: #464f54;
+   margin: 0 auto;
+   position: relative;
+}
+
+.content {
+   margin: 0px 70px 0 70px;
+   padding: 203px 131px 41px 126px;
+   background-color: #fff;
+   width: 1060px;
+   position: relative;
+}
+.vl {
+   border-left: 2px solid #e8eced;
+   height: 751px;
+   position: absolute;
+   top: 0px;
+   left: 68px;
+}
+.roybatty {
+   display: block;
+   width: 221px;
+   height: 17px;
+   font-family: "Proxima Nova";
+   font-size: 20px;
+   letter-spacing: 4.38px;
+   text-align: left;
+   color: #b4b4b4;
+   text-transform: uppercase;
+}
+.liketears {
+   width: 900px;
+   height: 54px;
+   font-family: "FuturaPT";
+   font-size: 78px;
+   font-weight: 900;
+   line-height: 0.94;
+   letter-spacing: 4.13px;
+   text-align: left;
+   color: #2a2a2a;
+   text-transform: uppercase;
+   margin-top: 40px;
+   margin-left: -1px;
+}
+.question {
+   width: 560px;
+   height: 30px;
+   font-family: Georgia;
+   font-size: 30px;
+   font-style: italic;
+   line-height: 2.07;
+   letter-spacing: normal;
+   text-align: justify;
+   color: #8f8f8f;
+   margin-top: 11px;
+   margin-left: -2px;
+}
+.rubric-1 {
+   width: 806px;
+   height: 143px;
+   font-family: "Georgia";
+   font-size: 27px;
+   font-style: normal;
+   line-height: 1.48;
+   /* letter-spacing: normal; */
+   text-align: justify;
+   color: #000000;
+   margin-top: 65px;
+}
+span {
+   font-style: italic;
+}
+.rubric-2 {
+   width: 804px;
+   height: 107px;
+   font-family: Georgia;
+   font-size: 27px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.48;
+   letter-spacing: normal;
+   text-align: justify;
+   color: #000000;
+   margin-top: 39px;
+}
+.header {
+   width: 876px;
+   height: 187px;
+   box-shadow: -3.5px -3.5px 59px 0 rgba(0, 0, 0, 0.16);
+   background-color: #181818;
+   position: absolute;
+   top: 47px;
+   left: 324px;
+}
+.title {
+   width: 57px;
+   height: 10px;
+   font-family: "Proxima Nova";
+   font-size: 15px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 7.27;
+   letter-spacing: 4.8px;
+   text-align: left;
+   color: #767676;
+   text-transform: uppercase;
+   margin-top: 1px;
+   margin-left: 65px;
+}
+.like-tears-in-ra {
+   width: 360px;
+   height: 40px;
+   font-family: "Playfair Display";
+   font-size: 48px;
+   line-height: 1.96;
+   letter-spacing: normal;
+   text-align: left;
+   color: #fefefe;
+   margin-top: 35px;
+   margin-left: 62px;
+}
+.header__vl {
+   width: 816px;
+   height: 3px;
+   opacity: 0.1;
+   background-color: #ffffff;
+   margin: 50px 0 0 0;
+   margin-left: 60px;
+}
+.control-bar {
+   background-color: #f8be2c;
+   width: 812px;
+   height: 76px;
+}
+/* ---------------------- */
+.control-bar {
+   position: absolute;
+   top: 234px;
+   left: 388px;
+}
+.section {
+   display: flex;
+}
+.one {
+   width: 32px;
+   height: 32px;
+   margin-top: 22px;
+   margin-left: 42px;
+   margin-bottom: 22px;
+   opacity: 0.5;
+}
+.one:hover {
+   opacity: 1;
+}
+.two {
+   width: 30px;
+   height: 23px;
+   margin-top: 26px;
+   margin-left: 22px;
+   margin-bottom: 27px;
+   opacity: 0.5;
+}
+.two:hover {
+   opacity: 1;
+}
+.three {
+   width: 28px;
+   height: 27px;
+   margin-top: 24px;
+   margin-left: 30px;
+   margin-bottom: 25px;
+   opacity: 0.5;
+}
+.three:hover {
+   opacity: 1;
+}
+.four {
+   width: 20px;
+   height: 26px;
+   margin-top: 24px;
+   margin-left: 32px;
+   margin-bottom: 26px;
+   opacity: 0.5;
+}
+.four:hover {
+   opacity: 1;
+}
+.five {
+   width: 19px;
+   height: 22px;
+   margin-top: 27px;
+   margin-left: 40px;
+   margin-bottom: 27px;
+   opacity: 0.5;
+}
+.five:hover {
+   opacity: 1;
+}
+.six {
+   width: 22px;
+   height: 27px;
+   margin-top: 24px;
+   margin-left: 41px;
+   margin-bottom: 25px;
+   opacity: 0.5;
+}
+.six:hover {
+   opacity: 1;
+}
+.seven {
+   width: 28px;
+   height: 27px;
+   margin-top: 24px;
+   margin-left: 38px;
+   margin-bottom: 25px;
+   opacity: 0.5;
+}
+.seven:hover {
+   opacity: 1;
+}
+.eight {
+   width: 28px;
+   height: 27px;
+   margin-top: 24px;
+   margin-left: 32px;
+   margin-bottom: 25px;
+   opacity: 0.5;
+}
+.eight:hover {
+   opacity: 1;
+}
+.nine {
+   width: 28px;
+   height: 27px;
+   margin-top: 24px;
+   margin-left: 32px;
+   margin-bottom: 25px;
+   opacity: 0.5;
+}
+.nine:hover {
+   opacity: 1;
+}
+.ten {
+   width: 28px;
+   height: 27px;
+   margin-top: 24px;
+   margin-left: 32px;
+   margin-bottom: 25px;
+   opacity: 0.5;
+}
+.ten:hover {
+   opacity: 1;
+}
