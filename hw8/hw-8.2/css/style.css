@@ -1,0 +1,235 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   font-family: "Hans Kendrick 3 Regular";
+}
+.main {
+   width: 1120px;
+   margin: 0 auto;
+   /* background-color: rgb(221, 226, 231); */
+}
+.header-wrapp {
+   margin-top: 20px;
+   display: flex;
+}
+.block-1 {
+   width: 740px;
+   height: 540;
+   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), #000000), url(../img/bacground_car.png);
+}
+.block-2 {
+   margin-left: auto;
+   width: 360px;
+   height: 540px;
+   /* border: 1px solid green; */
+}
+/*---Block-1----*/
+.block-1__content {
+   position: relative;
+}
+
+.block-1__text1 {
+   display: block;
+   width: 132px;
+   height: 13px;
+   text-transform: uppercase;
+   font-size: 13px;
+   color: #807c73;
+   position: absolute;
+   top: 404px;
+   left: 46px;
+}
+.block-1__text2 {
+   display: block;
+   width: 433px;
+   height: 60px;
+   color: #fff;
+   font-size: 30px;
+   font-weight: 900;
+   position: absolute;
+   top: 430px;
+   left: 43px;
+}
+/*---Block-2----*/
+.block-2__content {
+   position: relative;
+}
+.block-2__text1 {
+   display: block;
+   width: 133px;
+   height: 13px;
+   font-size: 13px;
+   font-weight: 500;
+   line-height: 2.31;
+   letter-spacing: 0.33px;
+   text-transform: uppercase;
+   color: #818181;
+   position: absolute;
+   top: 14px;
+   left: 28px;
+}
+.block-2__text2 {
+   display: block;
+   width: 307px;
+   height: 78px;
+   font-size: 22px;
+   font-weight: 900;
+   line-height: 1.36;
+   letter-spacing: 0.55px;
+   text-align: left;
+   text-transform: uppercase;
+   position: absolute;
+   top: 50px;
+   left: 27px;
+}
+.block-2__img-man {
+   margin: 205px 0 0 28px;
+}
+/* ---Block-3----*/
+.page-wrapp {
+   display: flex;
+}
+.block-3 {
+   margin: 20px 0 0 0;
+}
+.block-3__content {
+   position: relative;
+}
+.block-3__text1 {
+   display: block;
+   width: 133px;
+   height: 13px;
+   font-size: 13px;
+   font-weight: 500;
+   line-height: 2.31;
+   letter-spacing: 0.33px;
+   text-transform: uppercase;
+   color: #818181;
+   position: absolute;
+   top: 14px;
+   left: 28px;
+}
+.block-3__text2 {
+   display: block;
+   width: 307px;
+   height: 78px;
+   font-size: 22px;
+   font-weight: 900;
+   line-height: 1.36;
+   letter-spacing: 0.55px;
+   text-align: left;
+   text-transform: uppercase;
+   position: absolute;
+   top: 50px;
+   left: 27px;
+}
+.block-3-img-man {
+   margin: 205px 0 0 28px;
+}
+/*----Block-4----*/
+.block-4 {
+   margin: 20px 0 0 20px;
+}
+.block-4__content {
+   position: relative;
+}
+.block-4__text1 {
+   display: block;
+   width: 133px;
+   height: 13px;
+   font-size: 13px;
+   font-weight: 500;
+   line-height: 2.31;
+   letter-spacing: 0.33px;
+   text-transform: uppercase;
+   color: #818181;
+   position: absolute;
+   top: 14px;
+   left: 28px;
+}
+.block-4__text2 {
+   display: block;
+   width: 307px;
+   height: 78px;
+   font-size: 22px;
+   font-weight: 900;
+   line-height: 1.36;
+   letter-spacing: 0.55px;
+   text-align: left;
+   text-transform: uppercase;
+   position: absolute;
+   top: 50px;
+   left: 27px;
+}
+.block-4-img-man {
+   margin: 205px 0 0 28px;
+}
+/*----Block-5----*/
+.block-5 {
+   margin: 20px 0 0 20px;
+}
+.block-5__content {
+   position: relative;
+}
+.block-5__text1 {
+   display: block;
+   width: 133px;
+   height: 13px;
+   font-size: 13px;
+   font-weight: 500;
+   line-height: 2.31;
+   letter-spacing: 0.33px;
+   text-transform: uppercase;
+   color: #818181;
+   position: absolute;
+   top: 14px;
+   left: 28px;
+}
+.block-5__text2 {
+   display: block;
+   width: 307px;
+   height: 78px;
+   font-size: 22px;
+   font-weight: 900;
+   line-height: 1.36;
+   letter-spacing: 0.55px;
+   text-align: left;
+   text-transform: uppercase;
+   position: absolute;
+   top: 50px;
+   left: 27px;
+}
+.block-5-img-man {
+   margin: 205px 0 0 28px;
+}
+/*----Footer----*/
+.footer-wrapp {
+   width: 360px;
+   margin: 0 auto;
+   margin: 112px 0 0 0;
+   position: relative;
+}
+.smart {
+   position: absolute;
+   top: -10px;
+   left: 455px;
+}
+span {
+   display: block;
+   width: 164px;
+   height: 11px;
+   font-size: 13px;
+   font-weight: 900;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 2.31;
+   letter-spacing: 0.33px;
+   text-align: left;
+   color: #99a5b0;
+   position: absolute;
+   top: -12px;
+   left: 500px;
+}

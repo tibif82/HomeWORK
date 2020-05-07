@@ -1,0 +1,251 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   /* background-color: lightgreen; */
+}
+.main {
+   width: 1200px;
+   height: 600px;
+   margin: 0 auto;
+   background-color: #fdde7e;
+   margin-top: 30px;
+   position: relative;
+}
+/*-----Bronze coffee-----*/
+.bronze-wrapp {
+   width: 360px;
+   height: 441px;
+   background-color: #fff;
+   margin: 0px 30px 79px 30px;
+   position: absolute;
+   top: 80px;
+   left: 0;
+}
+
+.silwer-wrapp {
+   width: 360px;
+   height: 441px;
+   background-color: #fff;
+   margin: 0px 30px 79px 30px;
+   position: absolute;
+   top: 80px;
+   left: 780px;
+}
+.bronze-prise {
+   width: 52px;
+   height: 53px;
+   font-family: "Miso";
+   font-size: 70px;
+   font-weight: bold;
+   line-height: 0.34;
+   letter-spacing: 1.75px;
+   text-align: center;
+   color: #02995b;
+   margin-left: 150px;
+   margin-top: 55px;
+}
+.bronze-smoke {
+   display: block;
+   width: 49px;
+   height: 46px;
+   margin: 0 auto;
+   margin-top: 10px;
+   margin-left: 153px;
+}
+.bronze-bean {
+   display: block;
+   width: 36px;
+   height: 45px;
+   position: absolute;
+   top: 190px;
+   left: 162px;
+   opacity: 1;
+   mix-blend-mode: multiply;
+}
+.bronze-cup {
+   display: block;
+   width: 135px;
+   height: 77px;
+   margin-top: 11px;
+   margin-left: 120px;
+}
+.bronze-desc {
+   width: 156px;
+   height: 115px;
+   margin-top: 38px;
+   margin-left: 102px;
+   text-align: center;
+}
+.bronze-text1 {
+   font-family: "Miso";
+   font-size: 56px;
+   font-weight: normal;
+   line-height: 0.43;
+   letter-spacing: normal;
+}
+.bronze-text2 {
+   display: block;
+   margin-top: 30px;
+   font-family: "Lato";
+   font-size: 20px;
+   font-weight: 300;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.3;
+   letter-spacing: 0.5px;
+   text-align: center;
+   color: #333333;
+}
+/*----Gold coffee----*/
+.gold-wrapp {
+   width: 361px;
+   height: 500px;
+   background-color: #fff;
+   margin: 0px 30px 79px 30px;
+   position: absolute;
+   top: 50px;
+   left: 390px;
+}
+.gold-prise {
+   width: 52px;
+   height: 53px;
+   font-family: "Miso";
+   font-size: 70px;
+   font-weight: bold;
+   line-height: 0.34;
+   letter-spacing: 1.75px;
+   text-align: center;
+   color: #02995b;
+   margin-left: 150px;
+   margin-top: 63px;
+}
+.gold-smoke {
+   display: block;
+   width: 49px;
+   height: 46px;
+   margin: 0 auto;
+   margin-top: 30px;
+   margin-left: 153px;
+}
+.gold-bean {
+   display: block;
+   width: 36px;
+   height: 45px;
+   position: absolute;
+   top: 220px;
+   left: 162px;
+   opacity: 1;
+   mix-blend-mode: multiply;
+}
+.gold-cup {
+   display: block;
+   width: 135px;
+   height: 77px;
+   margin-top: 12px;
+   margin-left: 120px;
+}
+.gold-desc {
+   width: 156px;
+   height: 115px;
+   margin-top: 55px;
+   margin-left: 102px;
+   text-align: center;
+}
+.gold-text1 {
+   font-family: "Miso";
+   font-size: 56px;
+   font-weight: normal;
+   line-height: 0.43;
+   letter-spacing: normal;
+}
+.gold-text2 {
+   display: block;
+   margin-top: 30px;
+   font-family: "Lato";
+   font-size: 20px;
+   font-weight: 300;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.3;
+   letter-spacing: 0.5px;
+   text-align: center;
+   color: #333333;
+}
+/*----Silver coffee----*/
+.silver-wrapp {
+   width: 361px;
+   height: 500px;
+   background-color: #fff;
+   margin: 0px 30px 79px 30px;
+   position: absolute;
+   top: 50px;
+   left: 390px;
+}
+.silver-price {
+   width: 52px;
+   height: 53px;
+   font-family: "Miso";
+   font-size: 70px;
+   font-weight: bold;
+   line-height: 0.34;
+   letter-spacing: 1.75px;
+   text-align: center;
+   color: #02995b;
+   margin-left: 125px;
+   margin-top: 55px;
+}
+.silver-smoke {
+   display: block;
+   width: 49px;
+   height: 46px;
+   margin: 0 auto;
+   margin-top: 10px;
+   margin-left: 153px;
+}
+.silver-bean {
+   display: block;
+   width: 36px;
+   height: 45px;
+   position: absolute;
+   top: 190px;
+   left: 162px;
+   opacity: 1;
+   mix-blend-mode: multiply;
+}
+.silver-cup {
+   display: block;
+   width: 135px;
+   height: 77px;
+   margin-top: 11px;
+   margin-left: 120px;
+}
+.silver-desс {
+   width: 156px;
+   height: 115px;
+   margin-top: 38px;
+   margin-left: 102px;
+   text-align: center;
+}
+.silver-text1 {
+   font-family: "Miso";
+   font-size: 56px;
+   font-weight: normal;
+   line-height: 0.43;
+   letter-spacing: normal;
+}
+.silver-text2 {
+   display: block;
+   margin-top: 30px;
+   font-family: "Lato";
+   font-size: 20px;
+   font-weight: 300;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.3;
+   letter-spacing: 0.5px;
+   text-align: center;
+   color: #333333;
+}
