@@ -1,0 +1,351 @@
+.page {
+   width: 1600px;
+   height: 736px;
+   margin: 0 auto;
+   background-color: #f6f6f6;
+}
+/* -----HEADER--------- */
+.header {
+   padding-top: 108px;
+}
+.who-we-are {
+   margin-left: 665px;
+   font-family: "Lato";
+   font-weight: Bold;
+   width: 280px;
+   height: 26px;
+   font-size: 34px;
+   letter-spacing: 5.44px;
+   text-align: center;
+   color: #3c3c3c;
+}
+.vl {
+   width: 45px;
+   height: 4px;
+   background-color: #dddbdb;
+   margin-top: 25px;
+   margin-left: 778px;
+}
+.loremipsum {
+   width: 561px;
+   height: 39px;
+   font-family: "Lato";
+   font-size: 16px;
+   font-weight: 300;
+   line-height: 1.5;
+   text-align: center;
+   color: #3c3c3c;
+   margin-left: 518px;
+   margin-top: 34px;
+}
+/* --------MAIN--------- */
+.main {
+   width: 1169px;
+   /* border: 1px solid #000; */
+   margin-left: 214px;
+   margin-top: 59px;
+   display: flex;
+}
+
+/* ------JOHN ANDSON----- */
+.john {
+   position: relative;
+}
+
+.social__john {
+   width: 269px;
+   height: 268px;
+   background-color: #18b5dc;
+   display: flex;
+   position: relative;
+   position: absolute;
+   top: 0;
+   left: 0;
+   opacity: 0;
+}
+.social__john:hover {
+   transition: all 0.9s ease-in;
+   opacity: 1;
+}
+
+.john-social__svg-twitter {
+   width: 42px;
+   height: 42px;
+   background-color: #5ecbe7;
+   position: absolute;
+   top: 110px;
+   left: 65px;
+}
+.john-svg-1 {
+   position: absolute;
+   top: 11px;
+   left: 10px;
+}
+.john-social__svg-facebook {
+   width: 42px;
+   height: 42px;
+   background-color: #5ecbe7;
+   position: absolute;
+   top: 110px;
+   left: 112px;
+}
+.john-svg-2 {
+   position: absolute;
+   top: 11px;
+   left: 11px;
+}
+.john-social__svg-google {
+   width: 42px;
+   height: 42px;
+   background-color: #5ecbe7;
+   position: absolute;
+   top: 110px;
+   left: 159px;
+}
+.john-svg-3 {
+   position: absolute;
+   top: 11px;
+   left: 2px;
+}
+/* -------------------- */
+.alex,
+.elena,
+.lily {
+   margin-left: 31px;
+}
+
+/* -----ALEX CUTTER---- */
+.alex {
+   position: relative;
+}
+.social__alex {
+   width: 269px;
+   height: 268px;
+   background-color: #18b5dc;
+   display: flex;
+   position: relative;
+   position: absolute;
+   top: 0;
+   left: 0;
+   opacity: 0;
+}
+.social__alex:hover {
+   transition: all 0.9s ease-in;
+   opacity: 1;
+}
+.alex-social__svg-twitter {
+   width: 42px;
+   height: 42px;
+   background-color: #5ecbe7;
+   position: absolute;
+   top: 110px;
+   left: 65px;
+}
+.alex-svg-1 {
+   position: absolute;
+   top: 11px;
+   left: 10px;
+}
+.alex-social__svg-facebook {
+   width: 42px;
+   height: 42px;
+   background-color: #5ecbe7;
+   position: absolute;
+   top: 110px;
+   left: 112px;
+}
+.alex-svg-2 {
+   position: absolute;
+   top: 11px;
+   left: 11px;
+}
+.alex-social__svg-google {
+   width: 42px;
+   height: 42px;
+   background-color: #5ecbe7;
+   position: absolute;
+   top: 110px;
+   left: 159px;
+}
+.alex-svg-3 {
+   position: absolute;
+   top: 11px;
+   left: 2px;
+}
+
+/* ---ELENA SIMPSON----- */
+.elena {
+   position: relative;
+}
+.social__elena {
+   width: 269px;
+   height: 268px;
+   background-color: #18b5dc;
+   display: flex;
+   position: relative;
+   position: absolute;
+   top: 0;
+   left: 0;
+   opacity: 0;
+}
+.social__elena:hover {
+   transition: all 0.9s ease-in;
+   opacity: 1;
+}
+.elena-social__svg-twitter {
+   width: 42px;
+   height: 42px;
+   background-color: #5ecbe7;
+   position: absolute;
+   top: 110px;
+   left: 65px;
+}
+.elena-svg-1 {
+   position: absolute;
+   top: 11px;
+   left: 10px;
+}
+.elena-social__svg-facebook {
+   width: 42px;
+   height: 42px;
+   background-color: #5ecbe7;
+   position: absolute;
+   top: 110px;
+   left: 112px;
+}
+.elena-svg-2 {
+   position: absolute;
+   top: 11px;
+   left: 11px;
+}
+.elena-social__svg-google {
+   width: 42px;
+   height: 42px;
+   background-color: #5ecbe7;
+   position: absolute;
+   top: 110px;
+   left: 159px;
+}
+.elena-svg-3 {
+   position: absolute;
+   top: 11px;
+   left: 2px;
+}
+/* -----LILY ALLEN------ */
+.lily {
+   position: relative;
+}
+.social__lily {
+   width: 269px;
+   height: 268px;
+   background-color: #18b5dc;
+   display: flex;
+   position: relative;
+   position: absolute;
+   top: 0;
+   left: 0;
+   opacity: 0;
+}
+.social__lily:hover {
+   transition: all 0.9s ease-in;
+   opacity: 1;
+}
+.lily-social__svg-twitter {
+   width: 42px;
+   height: 42px;
+   background-color: #5ecbe7;
+   position: absolute;
+   top: 110px;
+   left: 65px;
+}
+.lily-svg-1 {
+   position: absolute;
+   top: 11px;
+   left: 10px;
+}
+.lily-social__svg-facebook {
+   width: 42px;
+   height: 42px;
+   background-color: #5ecbe7;
+   position: absolute;
+   top: 110px;
+   left: 112px;
+}
+.lily-svg-2 {
+   position: absolute;
+   top: 11px;
+   left: 11px;
+}
+.lily-social__svg-google {
+   width: 42px;
+   height: 42px;
+   background-color: #5ecbe7;
+   position: absolute;
+   top: 110px;
+   left: 159px;
+}
+.lily-svg-3 {
+   position: absolute;
+   top: 11px;
+   left: 2px;
+}
+
+/* ------WRAPP------ */
+.wrapp {
+   display: flex;
+   margin-top: 21px;
+   font-family: "Lato";
+   position: relative;
+}
+h3 {
+   font-size: 18px;
+   font-weight: Bold;
+}
+.designer {
+   width: 114px;
+   height: 35px;
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 1.29;
+   text-align: left;
+   color: #646464;
+   position: absolute;
+   top: -0px;
+   left: 212px;
+}
+.developer {
+   width: 93px;
+   height: 34px;
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 1.29;
+   text-align: left;
+   color: #646464;
+   position: absolute;
+   top: 0px;
+   left: 513px;
+}
+.artist {
+   width: 117px;
+   height: 32;
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 1.29;
+   text-align: left;
+   color: #646464;
+   position: absolute;
+   top: 0px;
+   left: 812px;
+}
+.graphic {
+   width: 105px;
+   height: 35px;
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 1.29;
+   text-align: left;
+   color: #646464;
+   position: absolute;
+   top: 0px;
+   left: 1113px;
+}
