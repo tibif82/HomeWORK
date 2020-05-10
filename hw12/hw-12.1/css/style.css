@@ -98,3 +98,15 @@
    text-transform: uppercase;
    color: #ffffff;
 }
+
+.scroll {
+   position: absolute;
+}
+.fas {
+   position: relative;
+   top: -150px;
+   left: 50%;
+}
+.fa-mouse {
+   color: gray;
+}
