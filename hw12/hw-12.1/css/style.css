@@ -1,0 +1,48 @@
+.main {
+   width: 1500px;
+   margin: 0 auto;
+   border: 1px solid gray;
+}
+.fresh {
+   /* width: 1500px; */
+   height: 1087px;
+   background-image: url(../img/Fresh/bg.png);
+}
+.header {
+   display: flex;
+}
+.logo {
+   font-family: "Pacifico";
+   width: 127px;
+   height: 52px;
+   font-size: 50px;
+   color: #262626;
+   margin: 50px 485px 258px 165px;
+}
+
+.nav {
+   width: 559px;
+   height: 12px;
+   margin: 69px 164px 0px 0px;
+   position: relative;
+}
+.line:before {
+   content: " ";
+   background: #ff6033;
+   width: 50px;
+   height: 3px;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+}
+.nav ul {
+   display: flex;
+   font-family: Raleway;
+   font-size: 16px;
+   font-weight: bold;
+   line-height: 1.56;
+   text-align: right;
+   color: #262626;
+   justify-content: space-between;
+   text-transform: uppercase;
+}
