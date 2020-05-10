@@ -37,7 +37,7 @@
 }
 .nav ul {
    display: flex;
-   font-family: Raleway;
+   font-family: "Raleway";
    font-size: 16px;
    font-weight: bold;
    line-height: 1.56;
@@ -45,4 +45,56 @@
    color: #262626;
    justify-content: space-between;
    text-transform: uppercase;
+}
+/* ------------------------- */
+.fresh-life {
+   width: 291px;
+   height: 46px;
+   margin: 0px 1049px 34px 164px;
+}
+.fresh-life h1 {
+   font-family: "Raleway";
+   font-weight: Bold;
+   font-size: 60px;
+   font-weight: 900;
+   line-height: 0.42;
+   text-align: left;
+   color: #262626;
+}
+.seddo {
+   width: 368px;
+   height: 70px;
+   margin: 0px 967px 31px 165px;
+}
+.seddo p {
+   font-family: "Raleway";
+   font-size: 17px;
+   font-weight: 300;
+   line-height: 1.59;
+   text-align: left;
+   color: #262626;
+}
+.get {
+   width: 200px;
+   height: 55px;
+   box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.5);
+   background-color: #ff6033;
+}
+.get {
+   margin: 0px 1135px 491px 165px;
+   padding: 15px 26px 20px 25px;
+}
+.get p {
+   width: 149px;
+   height: 15px;
+   font-family: Raleway;
+   font-size: 20px;
+   font-weight: 300;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.35;
+   letter-spacing: normal;
+   text-align: left;
+   text-transform: uppercase;
+   color: #ffffff;
 }
