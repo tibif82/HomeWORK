@@ -90,15 +90,11 @@
    font-family: Raleway;
    font-size: 20px;
    font-weight: 300;
-   font-stretch: normal;
-   font-style: normal;
    line-height: 1.35;
-   letter-spacing: normal;
    text-align: left;
    text-transform: uppercase;
    color: #ffffff;
 }
-
 .scroll {
    position: absolute;
 }
@@ -109,4 +105,41 @@
 }
 .fa-mouse {
    color: gray;
+}
+/* -------ABOUT US-------- */
+.about {
+   display: flex;
+   height: 700px;
+   margin-top: -87px;
+   background-color: rgb(0, 188, 188);
+   font-family: "Raleway";
+}
+.plate img {
+   width: 566px;
+   height: 559px;
+   margin: 75px 94px 70px 90px;
+}
+.about__descr {
+   width: 499px;
+   height: 188px;
+}
+.about-use {
+   width: 395px;
+   height: 67px;
+   margin-top: 220px;
+   font-size: 90px;
+   font-weight: Bold;
+   line-height: 0.3;
+   text-align: left;
+   color: #ffffff;
+}
+.about-text {
+   width: 499px;
+   height: 188px;
+   font-size: 17px;
+   font-weight: 300;
+   line-height: 1.59;
+   letter-spacing: normal;
+   text-align: left;
+   color: #ffffff;
 }
