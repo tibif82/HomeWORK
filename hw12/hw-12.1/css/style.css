@@ -500,8 +500,11 @@
 .subscribe {
    font-family: "Raleway";
    height: 500px;
-   border: 1px solid blue;
+   border: 1px solid grey;
    background-image: url(../img/Subscribe/bg.png);
+}
+.subscribe:hover {
+   border: 1px solid #1917be;
 }
 .subscribe__wrapp {
    position: absolute;
@@ -560,4 +563,175 @@
 }
 .subscribe__button:hover {
    border: 1px solid rgb(15, 74, 202);
+}
+
+/* -----BLOG------ */
+.blog {
+   height: 864px;
+   background-color: #b07cf7;
+   padding-top: 100px;
+}
+.header__wrap {
+   width: 563px;
+   height: 182px;
+   margin-top: 100px;
+}
+.header__blog {
+   width: 190px;
+   height: 86px;
+   font-family: "Raleway", sans-serif;
+   font-size: 90px;
+   font-weight: bold;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 0.28;
+   letter-spacing: normal;
+   text-align: right;
+   color: #ffffff;
+   margin: 0 auto;
+   margin-left: 655px;
+}
+.header__text {
+   width: 563px;
+   height: 66px;
+   text-align: justify;
+   font-family: "Raleway";
+   font-size: 17px;
+   font-weight: 300;
+   margin-left: 469px;
+   line-height: 1.47;
+   letter-spacing: normal;
+   color: #ffffff;
+   z-index: 42;
+}
+/* ----------------- */
+.menu {
+   width: 1224px;
+   height: 310px;
+   background-color: #b07cf7;
+   margin-left: 168px;
+   margin-top: 25px;
+   display: flex;
+}
+.greentea {
+   width: 370px;
+   height: 310px;
+   background-image: linear-gradient(to bottom, rgba(209, 191, 191, 0.1), #353030), url(../img/Blog/img-1.png);
+   box-shadow: 5px 4px 10px 0 rgba(0, 0, 0, 0.5);
+}
+.soup {
+   width: 370px;
+   height: 310px;
+   margin-left: 30px;
+   background-image: linear-gradient(to bottom, rgba(209, 191, 191, 0.1), #353030), url(../img/Blog/img-2.png);
+   box-shadow: 5px 4px 10px 0 rgba(0, 0, 0, 0.5);
+}
+.raspberry {
+   width: 370px;
+   height: 310px;
+   margin-left: 30px;
+   background-image: linear-gradient(to bottom, rgba(209, 191, 191, 0.1), #353030), url(../img/Blog/img-3.png);
+   box-shadow: 5px 4px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* -----------------*/
+.menu {
+   font-family: "Raleway", serif;
+   position: relative;
+}
+.date__greentea,
+.date__soup,
+.date__raspberry {
+   width: 60px;
+   height: 60px;
+   background-color: #262626;
+   opacity: 0.5;
+   color: #fff;
+   border-radius: 10%;
+}
+/* -------------------*/
+.date__greentea {
+   position: absolute;
+   top: 30px;
+   left: 30px;
+}
+.date__greentea-text1,
+.date__soup-text1,
+.date__raspberry-text1 {
+   font-family: "Raleway", serif;
+   font-weight: bold;
+   font-size: 32px;
+   position: relative;
+   top: 3px;
+   left: 13px;
+}
+.date__greentea-text2,
+.date__soup-text2,
+.date__raspberry-text2 {
+   font-family: "Raleway", serif;
+   font-weight: bold;
+   font-size: 21px;
+   text-transform: uppercase;
+   position: relative;
+   top: 3px;
+   left: 8px;
+}
+.date__soup {
+   position: absolute;
+   top: 30px;
+   left: 430px;
+}
+.date__raspberry {
+   position: absolute;
+   top: 30px;
+   left: 830px;
+}
+/* ------------------ */
+.greentea-text,
+.soup-text,
+.raspberry-text {
+   margin-top: 205px;
+   margin-left: 25px;
+   color: #fff;
+}
+.tea-text1,
+.soup-text1,
+.raspberry-text1 {
+   font-family: "Raleway", serif;
+   width: 306px;
+   height: 78px;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 1.25;
+   text-align: left;
+}
+.tea-text2,
+.soup-text2,
+.raspberry-text2 {
+   margin-top: -9px;
+   font-size: 13px;
+   font-weight: 300px;
+}
+/*-----BUTTON-----*/
+.butt {
+   width: 200px;
+   height: 55px;
+   background-color: #f72b3b;
+   margin: 0 auto;
+   margin-top: 50px;
+   -webkit-box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.5);
+   box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.5);
+}
+.butt:hover {
+   background-color: #880518;
+   transition: all 0.5s ease-in;
+   transition: 0.5s;
+   transform: scale(1.2);
+}
+.wrapp__butt p {
+   color: #fff;
+   text-align: center;
+   padding: 20px 0 0 0;
+   font-family: "Raleway", Light;
+   font-size: 20px;
 }
