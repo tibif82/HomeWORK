@@ -12,7 +12,7 @@
 .header__container {
    width: 591px;
    height: 370px;
-   border: 1px solid #fff;
+   padding-top: 1px;
 }
 .logo {
    position: relative;
@@ -41,4 +41,112 @@
    position: absolute;
    top: 64px;
    left: 318px;
+}
+.header__working {
+   margin: 144px 0px 40px 0px;
+   color: #fff;
+   width: 591px;
+   height: 103px;
+}
+.header__working p {
+   font-family: "Lato";
+   font-size: 54px;
+   font-weight: bold;
+   letter-spacing: 8.64px;
+   text-align: center;
+   color: #ffffff;
+   text-transform: uppercase;
+}
+.header__anagraph {
+   width: 585px;
+   height: 70px;
+}
+.header__anagraph p {
+   font-family: "Lato";
+   font-size: 15px;
+   line-height: 1.93;
+   letter-spacing: 0.9px;
+   text-align: center;
+   color: #ffffff;
+   text-transform: uppercase;
+}
+/* -------ABOUT US-------- */
+.aboutus {
+   height: 631px;
+   padding: 160px 510px 150px 508px;
+}
+.aboutus__wrapp {
+   width: 902px;
+   height: 312px;
+   border: 2px solid #3c3c3c;
+}
+.aboutus__wrapp {
+   position: relative;
+}
+.aboutus__wrapp-1 {
+   padding: 5px 50px 5px 55px;
+   font-family: "Lato";
+   font-size: 34px;
+   font-weight: bold;
+   letter-spacing: 5.44px;
+   text-align: center;
+   color: #3c3c3c;
+}
+.block-aboutus-1 p {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   background-color: #fff;
+   width: 400px;
+   height: 45px;
+   position: absolute;
+   top: -25px;
+   left: 245px;
+}
+.aboutus__wrapp-2 {
+   margin-top: 65px;
+   margin-left: 178px;
+   margin-right: 171px;
+   width: 520px;
+   height: 206px;
+   font-family: "Lato";
+   font-size: 16px;
+   font-weight: 300;
+   line-height: 1.5;
+   text-align: center;
+   color: #3c3c3c;
+}
+/* -----SERVICES------ */
+.services {
+   height: 488px;
+   background-image: url(../img/img-2.png);
+   padding-top: 128px;
+   font-family: "Lato";
+}
+.services__wrap {
+   width: 899px;
+   height: 251px;
+   border: 2px solid #fff;
+   margin: 0px 511px 109px 510px;
+   position: absolute;
+}
+
+/* ------------------------- */
+.services-title {
+   width: 190px;
+   height: 26px;
+   font-family: Lato;
+   font-size: 34px;
+   font-weight: bold;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: 5.44px;
+   text-align: center;
+   color: #ffffff;
+}
+.services-title p {
+   position: relative;
+   top: -20px;
+   left: 350px;
 }
