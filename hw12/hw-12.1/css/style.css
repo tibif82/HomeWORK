@@ -396,11 +396,15 @@
    height: 550px;
    margin-right: 30px;
 }
+.apricot:hover {
+   transition: 0.5s;
+   cursor: pointer;
+   box-shadow: 0px -7px 16px -3px #000000;
+}
 .apricot img {
    margin-left: -10px;
    margin-top: -5px;
 }
-
 .wrap__block-2 {
    width: 370px;
    height: 550px;
@@ -408,6 +412,11 @@
 .bilbery {
    width: 370px;
    height: 260px;
+}
+.bilbery:hover {
+   transition: 0.5s;
+   cursor: pointer;
+   box-shadow: 0px -7px 16px -3px #000000;
 }
 .bilbery img {
    margin-top: -3px;
@@ -418,6 +427,11 @@
    width: 370px;
    height: 260px;
    margin-top: 30px;
+}
+.blackbarry:hover {
+   transition: 0.5s;
+   cursor: pointer;
+   box-shadow: 0px -7px 16px -3px #000000;
 }
 .blackbarry img {
    margin-top: -3px;
@@ -431,13 +445,53 @@
 .milk {
    width: 570px;
    height: 400px;
-   border: 1px solid blue;
    margin-top: 30px;
+}
+.milk:hover {
+   transition: 0.5s;
+   cursor: pointer;
+   box-shadow: 0px -7px 16px -3px #000000;
+}
+.milk img {
+   margin-top: -4px;
+   margin-left: -5px;
 }
 .dried {
    width: 570px;
    height: 400px;
-   border: 1px solid blue;
    margin-top: 30px;
    margin-left: 30px;
+}
+.dried:hover {
+   transition: 0.5s;
+   cursor: pointer;
+   box-shadow: 0px -7px 16px -3px #000000;
+}
+.dried img {
+   margin-top: -4px;
+   margin-left: -6px;
+}
+/* --------------------*/
+.btn {
+   width: 200px;
+   height: 55px;
+   box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.5);
+   background-color: #5585a2;
+   margin: 0px 650px 120px 650px;
+   padding: 15px 44px 20px 43px;
+}
+.btn:hover {
+   cursor: pointer;
+   transition: 0.2s;
+   transform: scale(1.1);
+   box-shadow: 0px 0px 33px 4px #000000;
+}
+.btn p {
+   width: 125px;
+   height: 15px;
+   font-size: 20px;
+   font-weight: 300;
+   line-height: 1.35;
+   color: #ffffff;
+   text-transform: uppercase;
 }
