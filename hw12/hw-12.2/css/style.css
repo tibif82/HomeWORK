@@ -7,4 +7,38 @@
 .header {
    height: 1072px;
    background-image: url(../img/img-1.png);
+   padding: 285px 665px 245px 664px;
+}
+.header__container {
+   width: 591px;
+   height: 370px;
+   border: 1px solid #fff;
+}
+.logo {
+   position: relative;
+}
+.circle img {
+   position: absolute;
+   top: 0px;
+   left: 260px;
+}
+.rectangle img {
+   position: absolute;
+   top: 12px;
+   left: 265px;
+}
+.ellipse-1 img {
+   position: absolute;
+   top: 64px;
+   left: 263px;
+}
+.ellipse-2 img {
+   position: absolute;
+   top: 64px;
+   left: 290px;
+}
+.ellipse-3 img {
+   position: absolute;
+   top: 64px;
+   left: 318px;
 }
