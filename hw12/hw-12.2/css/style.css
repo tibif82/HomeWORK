@@ -1,0 +1,10 @@
+.main {
+   width: 1920px;
+   height: 4685px;
+   border: 1px solid gray;
+   margin: 0 auto;
+}
+.header {
+   height: 1072px;
+   background-image: url(../img/img-1.png);
+}
