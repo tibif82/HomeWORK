@@ -290,3 +290,108 @@ legend span {
    color: #3c3c3c;
    margin: 0px 180px 92px 188px;
 }
+/* -------GALERY-------- */
+.galery {
+   height: 484px;
+   border: 1px solid #3c3c3c;
+}
+.first-row,
+.second-row {
+   height: 237px;
+   margin-bottom: 10px;
+   display: flex;
+}
+.topworkz {
+   width: 548px;
+   margin-right: 10px;
+   background-image: url(../img/topworkz.png);
+}
+.topworkz p {
+   width: 234px;
+   height: 26px;
+   font-size: 34px;
+   font-weight: bold;
+   letter-spacing: 5.44px;
+   text-align: center;
+   color: #ffffff;
+   margin: 169px 267px 42px 47px;
+   text-transform: uppercase;
+}
+.joint {
+   width: 802px;
+   margin-right: 10px;
+   background-image: url(../img/joint.png);
+}
+.joint p {
+   width: 120px;
+   height: 26px;
+   font-size: 34px;
+   font-weight: bold;
+   letter-spacing: 5.44px;
+   text-align: center;
+   color: #ffffff;
+   margin: 168px 639px 43px 43px;
+   text-transform: uppercase;
+}
+.market {
+   width: 550px;
+   background-image: url(../img/market.png);
+}
+.market p {
+   width: 166px;
+   height: 26px;
+   font-size: 34px;
+   font-weight: bold;
+   letter-spacing: 5.44px;
+   text-align: center;
+   color: #ffffff;
+   text-transform: uppercase;
+   margin: 168px 335px 43px 43px;
+}
+.worktop {
+   width: 548px;
+   margin-right: 10px;
+   background-image: url(../img/worktop.png);
+}
+.worktop p {
+   width: 207px;
+   height: 26px;
+   font-size: 34px;
+   font-weight: bold;
+   letter-spacing: 5.44px;
+   text-align: center;
+   color: #ffffff;
+   text-transform: uppercase;
+   margin: 170px 292px 41px 49px;
+}
+.lable {
+   width: 802px;
+   margin-right: 10px;
+   background-image: url(../img/lable.png);
+}
+.lable p {
+   width: 120px;
+   height: 26px;
+   font-size: 34px;
+   font-weight: bold;
+   letter-spacing: 5.44px;
+   text-align: center;
+   color: #ffffff;
+   text-transform: uppercase;
+   margin: 169px 638px 42px 44px;
+}
+.kyiv {
+   width: 550px;
+   background-image: url(../img/kyiv.png);
+}
+.kyiv p {
+   width: 93px;
+   height: 26px;
+   font-size: 34px;
+   font-weight: bold;
+   letter-spacing: 5.44px;
+   text-align: center;
+   color: #ffffff;
+   text-transform: uppercase;
+   margin: 169px 408px 42px 49px;
+}
