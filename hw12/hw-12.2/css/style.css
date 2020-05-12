@@ -147,11 +147,11 @@
    margin: 0 auto;
 }
 fieldset {
-   width: 50%;
-   height: 50%;
+   width: 899px;
+   height: 251px;
    margin-top: 0.7em;
    transform: rotate3d(0, 0, 1, 360deg);
-   border: 3px solid rgba(255, 255, 255);
+   border: 2px solid rgba(255, 255, 255);
 }
 legend {
    font-size: 34px;
@@ -180,4 +180,113 @@ legend span {
    color: #ffffff;
    margin: 0 auto;
    padding-top: 30px;
+}
+/* ----- WHAT WE DO ----- */
+.what-we-do {
+   height: 1415px;
+   padding-top: 119px;
+   position: relative;
+}
+.what-we-do__wrapp {
+   width: 902px;
+   height: 1182px;
+   border: 2px solid #000;
+   margin: 0px 510px 114px 508px;
+   position: relative;
+}
+.what-we-do__title {
+   width: 419px;
+   height: 26px;
+   background-color: #fff;
+   font-size: 34px;
+   font-weight: bold;
+   letter-spacing: 5.44px;
+   text-align: center;
+   color: #3c3c3c;
+   position: absolute;
+   top: -18px;
+   left: 230px;
+}
+.ico-pen {
+   width: 80px;
+   height: 84px;
+   position: absolute;
+   top: 125px;
+   left: 409px;
+}
+.ico-pen__design {
+   width: 87px;
+   height: 16px;
+   font-size: 20px;
+   font-weight: bold;
+   letter-spacing: 3.2px;
+   text-align: center;
+   color: #3c3c3c;
+   margin: 248px 409px 37px 406px;
+}
+.ico-pen__text {
+   width: 547px;
+   height: 63px;
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 1.86;
+   text-align: center;
+   color: #3c3c3c;
+   margin: 0px 174px 94px 181px;
+}
+.ico-develop {
+   width: 79px;
+   height: 76px;
+   position: absolute;
+   top: 500px;
+   left: 410px;
+}
+.devrlop__title {
+   width: 179px;
+   height: 16px;
+   font-size: 20px;
+   font-weight: bold;
+   letter-spacing: 3.2px;
+   text-align: center;
+   color: #3c3c3c;
+   position: absolute;
+   top: 613px;
+   left: 363px;
+}
+.develop__text {
+   width: 547px;
+   height: 63px;
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 1.86;
+   text-align: center;
+   color: #3c3c3c;
+   margin: 300px 174px 4px 181px;
+}
+.ico-product {
+   width: 79px;
+   height: 91px;
+   position: absolute;
+   top: 829px;
+   left: 410px;
+}
+.product__title {
+   width: 305px;
+   height: 16px;
+   font-size: 20px;
+   font-weight: bold;
+   letter-spacing: 3.2px;
+   color: #3c3c3c;
+   text-transform: uppercase;
+   margin: 255px 300px 47px 303px;
+}
+.product__text {
+   width: 534px;
+   height: 63px;
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 1.86;
+   text-align: center;
+   color: #3c3c3c;
+   margin: 0px 180px 92px 188px;
 }
