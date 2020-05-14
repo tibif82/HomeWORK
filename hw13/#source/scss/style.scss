@@ -1,0 +1,120 @@
+@import "normalizestyle";
+@import "variables";
+
+.main {
+   background-color: $bcColor;
+   width: 1500px;
+   height: 1536px;
+   padding-top: 100px;
+   margin: 0 auto;
+}
+.header {
+   width: 577px;
+   height: 185px;
+   margin: 0px 461px 46px 462px;
+}
+
+.wrapper {
+   width: 1170px;
+   height: 980px;
+   margin: 0px 165px 50px 165px;
+}
+.header__title {
+   width: 308px;
+   height: 87px;
+   font-family: $ffont;
+   font-weight: $fwight;
+   font-size: 90px;
+   line-height: 0.3;
+   color: $textColor;
+   margin: 0 auto;
+}
+.header__info {
+   width: 577px;
+   height: 70px;
+   font-family: $ffont;
+   font-size: 17px;
+   font-weight: 300;
+   line-height: 1.59;
+   text-align: center;
+   color: $textColor;
+}
+// -----GALLERY--------
+.wrapper {
+   position: relative;
+
+   .row-1 {
+      width: 1170px;
+      height: 550px;
+      position: absolute;
+      top: -5px;
+      left: -9px;
+      display: flex;
+      margin-bottom: 30px;
+   }
+   &:hover {
+      cursor: pointer;
+   }
+}
+
+.block-2__wrapp {
+   position: relative;
+
+   .bilberry {
+      position: absolute;
+      top: 3px;
+      left: 14px;
+   }
+   .blackberry {
+      position: absolute;
+      top: 291px;
+      left: 14px;
+   }
+}
+.row-2 {
+   position: relative;
+
+   .milk {
+      position: absolute;
+      top: 576px;
+      left: -4px;
+   }
+
+   .dried {
+      position: absolute;
+      top: 576px;
+      left: 594px;
+   }
+}
+.button {
+   width: 200px;
+   height: 55px;
+   background-color: #5585a2;
+   margin: 0px 650px 120px 650px;
+   font-family: $ffont;
+   padding: 16px 44px 20px 43px;
+
+   &:hover {
+      background-color: #fff;
+      border: 2px solid #5585a2;
+      cursor: pointer;
+      box-shadow: 1px -1px 53px -4px #5585a2 inset;
+      color: #5585a2;
+      font-weight: $fwight;
+   }
+
+   p {
+      width: 120px;
+      height: 15px;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.35;
+      text-align: left;
+      color: #ffffff;
+
+      &:hover {
+         color: #5585a2;
+         font-weight: $fwight;
+      }
+   }
+}
