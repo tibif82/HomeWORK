@@ -106,6 +106,7 @@ body {
 .main__wrapp {
   width: 686px;
   height: 391px;
+  background-color: #152335;
   margin-left: 63px;
   margin-top: 109px;
   position: relative;
@@ -129,14 +130,36 @@ body {
 }
 .content .content__shoe {
   width: 328px;
-  border: 1px solid #000;
+  border: 1px solid blue;
   margin-top: 47px;
   margin-bottom: 32px;
 }
 .content .content__text {
-  width: 184px;
+  width: 185px;
   height: 238px;
   border: 1px solid blue;
   margin-left: 81px;
   font-family: "Museo Sans Rounded";
+}
+.content .content__text .content__text--title {
+  width: 165px;
+  height: 44px;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 1.08;
+  letter-spacing: 0.48px;
+  text-align: left;
+  color: #e7e7e7;
+  margin-bottom: 16px;
+}
+.content .content__text .content__text--description {
+  width: 172px;
+  height: 14px;
+  opacity: 0.54;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 1.86;
+  text-align: left;
+  color: rgba(231, 231, 231, 0.54);
+  margin-bottom: 24px;
 }
