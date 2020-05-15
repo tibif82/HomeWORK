@@ -86,3 +86,57 @@ h6 {
 }
 
 /*--------------------*/
+@font-face {
+  font-family: "Museo Sans Rounded";
+  src: url("../fonts/MuseoSansRounded-300.ttf");
+  src: local("Museo Sans Rounded 300"), local("MuseoSansRounded-300"), url("MuseoSansRounded-300.eot?#iefix") format("embedded-opentype"), url("MuseoSansRounded-300.woff2") format("woff2"), url("MuseoSansRounded-300.woff") format("woff"), url("../fonts/MuseoSansRounded-300.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  padding: 100px;
+}
+
+.main {
+  width: 800px;
+  height: 600px;
+  border: 1px solid #000;
+  margin: 0 auto;
+}
+.main__wrapp {
+  width: 686px;
+  height: 391px;
+  margin-left: 63px;
+  margin-top: 109px;
+  position: relative;
+  border: 1px solid #000;
+}
+
+.logo {
+  width: 65px;
+  height: 33px;
+  background-image: url(../img/logo.png);
+  margin-left: 21px;
+  position: absolute;
+  top: 24px;
+}
+
+.content {
+  width: 594px;
+  height: 238px;
+  margin: 78px 56px 75px 36px;
+  display: flex;
+}
+.content .content__shoe {
+  width: 328px;
+  border: 1px solid #000;
+  margin-top: 47px;
+  margin-bottom: 32px;
+}
+.content .content__text {
+  width: 184px;
+  height: 238px;
+  border: 1px solid blue;
+  margin-left: 81px;
+  font-family: "Museo Sans Rounded";
+}
