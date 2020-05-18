@@ -14,7 +14,6 @@
    <div class="main">
       <div class="main__wrapp">
          <div class="logo"></div>
-
          <div class="content">
             <div class="content__shoe">
                <img class="content__shoe-img" src="img/Nike-SB.png" alt="shoe">
@@ -29,14 +28,13 @@
                <fieldset class="rating">
                   <legend class="rating__caption"></legend>
                   <div class="rating__group">
-                     <input class="rating__star" type="radio" name="quality" value="1" aria-label="Awful">
-                     <input class="rating__star" type="radio" name="quality" value="2" aria-label="Passable">
-                     <input class="rating__star" type="radio" name="quality" value="3" aria-label="Fine">
+                     <input class="rating__star" type="radio" name="quality" value="1" aria-label="Awful" checked>
+                     <input class="rating__star" type="radio" name="quality" value="2" aria-label="Passable" checked>
+                     <input class="rating__star" type="radio" name="quality" value="3" aria-label="Fine" checked>
                      <input class="rating__star" type="radio" name="quality" value="4" aria-label="Good">
                      <input class="rating__star" type="radio" name="quality" value="5" aria-label="Perfect">
                   </div>
                </fieldset>
-
                <div class="select">
                   <select class="custom-select">
                      <option selected>Size</option>
@@ -51,14 +49,29 @@
                      <option value="3">perf</option>
                   </select>
                </div>
-
                <div class="button">
                   <span class="button__text">Add to cart</span>
                </div>
-
             </div>
          </div>
-
+         <div class="container">
+            <label class="check option">
+               <input class="check__input" type="checkbox" checked>
+               <span class="check__box"></span>
+            </label>
+            <label class="check option">
+               <input class="check__input" type="checkbox">
+               <span class="check__box"></span>
+            </label>
+            <label class="check option">
+               <input class="check__input" type="checkbox">
+               <span class="check__box"></span>
+            </label>
+            <label class="check option">
+               <input class="check__input" type="checkbox">
+               <span class="check__box"></span>
+            </label>
+         </div>
       </div>
    </div>
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

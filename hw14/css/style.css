@@ -234,9 +234,12 @@ body {
 }
 
 .select {
+  width: 140px;
   display: flex;
+  justify-content: space-between;
 }
 .select .custom-select {
+  border-radius: 0%;
   width: 69px;
   height: 32px;
   background-color: #152335;
@@ -267,4 +270,74 @@ body {
   margin-top: 12px;
   text-align: center;
   cursor: pointer;
+}
+
+.container {
+  width: 70px;
+  height: 9px;
+  display: flex;
+  position: absolute;
+  top: 350px;
+  left: 200px;
+}
+.container .check.option:nth-child(1) .check__box {
+  background-color: #ffcc00;
+}
+.container .check.option:nth-child(2) .check__box {
+  background-color: #ffffff;
+}
+.container .check.option:nth-child(3) .check__box {
+  background-color: #f34b42;
+}
+.container .check.option:nth-child(4) .check__box {
+  background-color: #25e7ee;
+}
+.container .check.option:nth-child(1) .check__input:checked + .check__box {
+  background-color: #293550;
+}
+.container .check.option:nth-child(2) .check__input:checked + .check__box {
+  background-color: #293550;
+}
+.container .check.option:nth-child(3) .check__input:checked + .check__box {
+  background-color: #293550;
+}
+.container .check.option:nth-child(4) .check__input:checked + .check__box {
+  background-color: #293550;
+}
+
+.option {
+  margin-bottom: 0.25em;
+}
+
+.check {
+  padding-left: 1.2em;
+}
+
+.check__input {
+  position: absolute;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.check__box {
+  border-radius: 50%;
+  border: 2px solid #67707c;
+  cursor: pointer;
+  position: absolute;
+  margin-left: -1.2em;
+  width: 10px;
+  height: 10px;
+  transition: 1s;
+  background-color: #25e7ee;
+}
+
+/*---- CHECKED----*/
+.check__input:checked + .check__box {
+  background-color: #293550;
+}
+
+/*----FOCUSED----*/
+.check__input:hover + .check__box {
+  width: 12px;
+  height: 12px;
 }
