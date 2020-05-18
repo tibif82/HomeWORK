@@ -113,7 +113,7 @@ body {
   margin-top: 109px;
   position: relative;
   border-radius: 2%;
-  border: 1px solid #000;
+  border: 1px solid #152335;
 }
 
 .logo {
@@ -139,7 +139,6 @@ body {
 .content .content__text {
   width: 185px;
   height: 238px;
-  border: 1px solid blue;
   margin-left: 81px;
   font-family: "Museo Sans Rounded";
 }
@@ -163,13 +162,14 @@ body {
   line-height: 1.86;
   text-align: left;
   color: rgba(231, 231, 231, 0.54);
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .rating {
   margin: 0 0 16px 0;
   padding: 0;
   border: none;
+  margin-bottom: 23px;
 }
 .rating .rating__caption {
   margin-bottom: 8px;
@@ -240,10 +240,31 @@ body {
   width: 69px;
   height: 32px;
   background-color: #152335;
-  color: #e7e7e7;
+  color: #ccc;
   font-size: 14px;
   font-weight: 100;
   line-height: 1.29;
   letter-spacing: 0.28px;
   text-align: left;
+  cursor: pointer;
+}
+.select .custom-select:hover {
+  background-color: #283443;
+}
+
+.button {
+  width: 184px;
+  height: 40px;
+  border: 1px solid #fafafa;
+  margin-top: 30px;
+}
+.button:hover {
+  background-color: #283443;
+}
+.button__text {
+  color: #ccc;
+  display: block;
+  margin-top: 12px;
+  text-align: center;
+  cursor: pointer;
 }
