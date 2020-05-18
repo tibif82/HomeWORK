@@ -1,78 +1,78 @@
 * {
-   padding: 0;
-   margin: 0;
-   border: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 *,
 *:before,
 *:after {
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :focus,
 :active {
-   outline: none;
+  outline: none;
 }
 
 a:focus,
 a:active {
-   outline: none;
+  outline: none;
 }
 
 nav,
 footer,
 header,
 aside {
-   display: block;
+  display: block;
 }
 
 html,
 body {
-   height: 100%;
-   width: 100%;
-   font-size: 100%;
-   line-height: 1;
-   font-size: 14px;
-   -ms-text-size-adjust: 100%;
-   -moz-text-size-adjust: 100%;
-   -webkit-text-size-adjust: 100%;
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
 input,
 button,
 textarea {
-   font-family: inherit;
+  font-family: inherit;
 }
 
 input::-ms-clear {
-   display: none;
+  display: none;
 }
 
 button {
-   cursor: pointer;
+  cursor: pointer;
 }
 
 button::-moz-focus-inner {
-   padding: 0;
-   border: 0;
+  padding: 0;
+  border: 0;
 }
 
 a,
 a:visited {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 ul li {
-   list-style: none;
+  list-style: none;
 }
 
 img {
-   vertical-align: top;
+  vertical-align: top;
 }
 
 h1,
@@ -81,91 +81,169 @@ h3,
 h4,
 h5,
 h6 {
-   font-size: inherit;
-   font-weight: 400;
+  font-size: inherit;
+  font-weight: 400;
 }
 
 /*--------------------*/
 @font-face {
-   font-family: "Museo Sans Rounded";
-   src: url("../fonts/MuseoSansRounded-300.ttf");
-   src: local("Museo Sans Rounded 300"), local("MuseoSansRounded-300"),
-      url("MuseoSansRounded-300.eot?#iefix") format("embedded-opentype"),
-      url("MuseoSansRounded-300.woff2") format("woff2"), url("MuseoSansRounded-300.woff") format("woff"),
-      url("../fonts/MuseoSansRounded-300.ttf") format("truetype");
-   font-weight: normal;
-   font-style: normal;
+  font-family: "Museo Sans Rounded";
+  src: url("../fonts/MuseoSansRounded-300.ttf");
+  src: local("Museo Sans Rounded 300"), local("MuseoSansRounded-300"), url("MuseoSansRounded-300.eot?#iefix") format("embedded-opentype"), url("MuseoSansRounded-300.woff2") format("woff2"), url("MuseoSansRounded-300.woff") format("woff"), url("../fonts/MuseoSansRounded-300.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 body {
-   padding: 50px;
+  padding: 50px;
 }
 
 .main {
-   width: 800px;
-   height: 600px;
-   border: 1px solid #000;
-   margin: 0 auto;
-   background-color: #d0d0d2;
-   background-image: url(../img/Group.png);
+  width: 800px;
+  height: 600px;
+  border: 1px solid #000;
+  margin: 0 auto;
+  background-color: #d0d0d2;
+  background-image: url(../img/Group.png);
 }
 .main__wrapp {
-   width: 686px;
-   height: 391px;
-   background-color: #152335;
-   margin-left: 63px;
-   margin-top: 109px;
-   position: relative;
-   border-radius: 2%;
-   border: 1px solid #000;
+  width: 686px;
+  height: 391px;
+  background-color: #152335;
+  margin-left: 63px;
+  margin-top: 109px;
+  position: relative;
+  border-radius: 2%;
+  border: 1px solid #000;
 }
 
 .logo {
-   width: 65px;
-   height: 33px;
-   background-image: url(../img/logo.png);
-   margin-left: 21px;
-   position: absolute;
-   top: 24px;
+  width: 65px;
+  height: 33px;
+  background-image: url(../img/logo.png);
+  margin-left: 21px;
+  position: absolute;
+  top: 24px;
 }
 
 .content {
-   width: 594px;
-   height: 238px;
-   margin: 78px 56px 75px 36px;
-   display: flex;
+  width: 594px;
+  height: 238px;
+  margin: 78px 56px 75px 36px;
+  display: flex;
 }
 .content .content__shoe {
-   width: 328px;
-   border: 1px solid blue;
-   margin-top: 47px;
-   margin-bottom: 32px;
+  width: 328px;
+  margin-top: 47px;
+  margin-bottom: 32px;
 }
 .content .content__text {
-   width: 185px;
-   height: 238px;
-   border: 1px solid blue;
-   margin-left: 81px;
-   font-family: "Museo Sans Rounded";
+  width: 185px;
+  height: 238px;
+  border: 1px solid blue;
+  margin-left: 81px;
+  font-family: "Museo Sans Rounded";
 }
 .content .content__text .content__text-title {
-   width: 165px;
-   height: 44px;
-   font-size: 24px;
-   font-weight: 100;
-   line-height: 1.08;
-   letter-spacing: 0.48px;
-   text-align: left;
-   color: #e7e7e7;
-   margin-bottom: 16px;
+  width: 165px;
+  height: 44px;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 1.08;
+  letter-spacing: 0.48px;
+  text-align: left;
+  color: #e7e7e7;
+  margin-bottom: 16px;
 }
 .content .content__text .content__text-description {
-   width: 172px;
-   height: 14px;
-   opacity: 0.54;
-   font-size: 14px;
-   font-weight: 100;
-   line-height: 1.86;
-   text-align: left;
-   color: rgba(231, 231, 231, 0.54);
-   margin-bottom: 24px;
+  width: 172px;
+  height: 14px;
+  opacity: 0.54;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 1.86;
+  text-align: left;
+  color: rgba(231, 231, 231, 0.54);
+  margin-bottom: 24px;
+}
+
+.rating {
+  margin: 0 0 16px 0;
+  padding: 0;
+  border: none;
+}
+.rating .rating__caption {
+  margin-bottom: 8px;
+  padding: 0;
+}
+
+.rating__group {
+  position: relative;
+  width: 60px;
+  height: 12px;
+  background-image: url(../img/of.png);
+  background-size: 12px auto;
+  background-repeat: repeat-x;
+}
+
+.rating__star {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  height: 12px;
+  background-size: 12px auto;
+  background-repeat: repeat-x;
+  font-size: inherit;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.rating__star:focus {
+  outline: none;
+}
+.rating__star:hover, .rating__star:checked {
+  background-image: url(../img/on.png);
+}
+.rating__star:hover ~ .rating__star {
+  background-image: url(../img/of.png);
+}
+
+/*    Options    */
+.rating__star:nth-of-type(1) {
+  z-index: 5;
+  width: 12px;
+}
+
+.rating__star:nth-of-type(2) {
+  z-index: 4;
+  width: 24px;
+}
+
+.rating__star:nth-of-type(3) {
+  z-index: 3;
+  width: 36px;
+}
+
+.rating__star:nth-of-type(4) {
+  z-index: 2;
+  width: 48px;
+}
+
+.rating__star:nth-of-type(5) {
+  z-index: 1;
+  width: 60px;
+}
+
+.select {
+  display: flex;
+}
+.select .custom-select {
+  width: 69px;
+  height: 32px;
+  background-color: #152335;
+  color: #e7e7e7;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 1.29;
+  letter-spacing: 0.28px;
+  text-align: left;
 }
