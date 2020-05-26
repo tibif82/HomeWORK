@@ -1,0 +1,343 @@
+.wrapper {
+   font-family: $FFamily;
+}
+
+.fresh {
+   width: 100%;
+   height: 1000px;
+   background: url(../assets/fresh.png) 0 0 / cover no-repeat;
+
+   .header {
+      display: flex;
+      padding: 50px 164px 258px 165px;
+      justify-content: space-between;
+
+      &__logo {
+         width: 10.845431255%;
+         font-family: $FLogo;
+         // padding-right: 441px;
+      }
+      &--text {
+         font-size: 50px;
+         line-height: 0.5;
+         color: $color;
+      }
+   }
+
+   .header__menu {
+      width: 47.736976942%;
+
+      @include mobile {
+         display: none;
+      }
+      @include tablet {
+         display: none;
+      }
+      @include desktop {
+         display: none;
+      }
+
+      .header__list li {
+         display: inline-block;
+         margin-right: 37px;
+      }
+
+      .header__item a {
+         display: inline-block;
+         font-size: 16px;
+         font-weight: bold;
+         line-height: 1.56;
+         color: $color;
+
+         &:hover {
+            box-shadow: 0px -5px 0px 0px #ff6033;
+            color: #868686;
+         }
+      }
+   }
+   // ------- Fresh Life --------
+   .life {
+      width: 31.426131511%;
+      margin-left: 164px;
+      margin-bottom: 295px;
+      // padding: 0 967px 295px 164px;
+      color: $color;
+      &__title {
+         display: inline-block;
+         font-size: 60px;
+         font-weight: 900;
+         line-height: 0.42;
+         text-align: left;
+         padding-bottom: 34px;
+      }
+      &__text {
+         display: inline-block;
+         font-size: 16px;
+         font-weight: 300;
+         line-height: 1.59;
+         text-align: left;
+         padding: 0px 150px 50px 0px;
+      }
+      &__button {
+         display: inline-block;
+         a {
+            background-color: #ff6033;
+            font-size: 20px;
+            font-weight: 300px;
+            line-height: 1.35;
+            @include button;
+
+            &:hover {
+               border: 2px solid #868686;
+            }
+         }
+      }
+   }
+   .mouse {
+      width: 2.049530315%;
+      display: inline-block;
+      padding: 0 738px 69px 738px;
+      cursor: pointer;
+   }
+}
+
+// ------- About Us -------
+
+.about {
+   background-image: radial-gradient(circle at 0 0, #00c4c4, #00b7b7, #00adad, #009c9c),
+      linear-gradient(to bottom, #00c4c4, #00c4c4);
+   display: flex;
+
+   .about__raspberry {
+      padding: 71px 0px 70px 175px;
+   }
+
+   &__container {
+      padding: 220px 166px 231px 94px;
+      .about__title {
+         font-size: 90px;
+         font-weight: bold;
+         line-height: 0.3;
+         text-align: left;
+         color: #ffffff;
+         padding-bottom: 45px;
+      }
+
+      .about__text {
+         font-size: 17px;
+         font-weight: 300;
+         line-height: 1.59;
+         text-align: left;
+         color: #ffffff;
+         padding-right: 100px;
+      }
+   }
+}
+// ----- Services ------
+.servises {
+   height: 790px;
+   background-color: #70bfff;
+   padding: 100px 165px 163px 265px;
+
+   &__container {
+      display: flex;
+
+      .services__product {
+         width: 400px;
+         height: 460px;
+
+         .online__shopping {
+            @include prd;
+
+            .online__title {
+               @include ourservices;
+            }
+            .online__ico {
+               @include ServicesIco;
+            }
+         }
+         .quality__product {
+            @include prd;
+
+            .quality__title {
+               @include ourservices;
+            }
+            .quality__ico {
+               @include ServicesIco;
+            }
+         }
+         .delivery__product {
+            @include prd;
+
+            .delivery__title {
+               @include ourservices;
+            }
+            .delivery__ico {
+               @include ServicesIco;
+            }
+         }
+         .organized__product {
+            @include prd;
+
+            .organized__title {
+               @include ourservices;
+            }
+            .organized__ico {
+               @include ServicesIco;
+            }
+         }
+      }
+
+      .services__tomato {
+         width: 50.467289719%;
+         height: 527px;
+         background-image: url(../assets/tomato.png);
+         background-repeat: no-repeat;
+         background-position: 100% 100%;
+         margin-left: auto;
+
+         .services__title {
+            display: inline-block;
+
+            .services__text {
+               font-size: 90px;
+               font-weight: bold;
+               line-height: 0.3;
+               text-align: right;
+               color: #ffffff;
+               padding-top: 231px;
+            }
+         }
+      }
+   }
+}
+
+// ----- Gallery -----
+.gallery {
+   height: 1536px;
+   background-color: #ffe92f;
+   padding-top: 100px;
+
+   .gallery__container {
+      width: 78%;
+      height: 81.119791666%;
+      margin: 0 auto;
+   }
+   .gallery__block-1 {
+      width: 47.606837606%;
+      height: 14.847512038%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+
+      .gallery__title {
+         height: 47.027027027%;
+         display: flex;
+         justify-content: center;
+         font-size: 90px;
+         line-height: 0.3;
+         color: #262626;
+
+         h1 {
+            font-weight: bold;
+         }
+      }
+      .gallery__text {
+         width: 100%;
+         height: 37.837837837%;
+         font-size: 17px;
+         font-weight: 300;
+         line-height: 1.59;
+         text-align: center;
+         color: #262626;
+      }
+   }
+
+   .gallery__block-2 {
+      width: 100%;
+      margin-right: 30px;
+      display: flex;
+      justify-content: space-between;
+
+      .gallery__appricot {
+         background-image: url(../assets/Gallery/apricot.png);
+         background-repeat: no-repeat;
+         background-position: 50% 10%;
+         background-size: 102% 110%;
+         width: 65.811965811%;
+         height: 550px;
+         box-shadow: $GalleryShadow;
+      }
+
+      .block-2__wrapp {
+         width: 31.623931623%;
+         height: 550px;
+         margin-bottom: 30px;
+
+         .gallery__bilberry {
+            background-image: url(../assets/Gallery/bilberry.png);
+            background-repeat: no-repeat;
+            background-position: 50% 10%;
+            background-size: 102% 110%;
+            width: 100%;
+            height: 260px;
+            margin-bottom: 30px;
+            box-shadow: $GalleryShadow;
+         }
+         .gallery__blackberry {
+            background-image: url(../assets/Gallery/blackberry.png);
+            background-repeat: no-repeat;
+            background-position: 50% 10%;
+            background-size: 102% 110%;
+            width: 100%;
+            height: 260px;
+            box-shadow: $GalleryShadow;
+         }
+      }
+   }
+
+   .gallery__block-3 {
+      width: 100%;
+      height: 400px;
+      display: flex;
+      justify-content: space-between;
+
+      .gallery__milk {
+         background-image: url(../assets/Gallery/milk.png);
+         background-repeat: no-repeat;
+         background-position: 60% 50%;
+         background-size: 102% 103%;
+         width: 48.717948717%;
+         height: 400px;
+         box-shadow: $GalleryShadow;
+      }
+      .gallery__dried {
+         background-image: url(../assets/Gallery/dried.png);
+         background-repeat: no-repeat;
+         background-position: 50% 10%;
+         background-size: 102% 105%;
+         width: 48.717948717%;
+         height: 400px;
+         box-shadow: $GalleryShadow;
+      }
+   }
+
+   .gallery__bloc-4 {
+      width: 17.094017094%;
+      height: 55px;
+      background-color: #5585a2;
+      margin: 50px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      &:hover {
+         border: 2px solid #fff;
+      }
+   }
+   .button {
+      @include GalleryBtn;
+   }
+}
+
+// ---- Subscribe To Us ------
