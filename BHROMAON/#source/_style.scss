@@ -20,7 +20,7 @@
    }
 }
 .header {
-   color: #ffffff;
+   color: $A-color;
    font-family: "Josefin Sans";
    line-height: 26px;
 
@@ -78,9 +78,9 @@ form {
       top: 0px;
       right: 0px;
       background: $C-color;
-      color: #fff;
+      color: $A-color;
       cursor: pointer;
-      border: 2px solid #fff;
+      border: 2px solid $A-color;
    }
    .btn {
       display: flex;
