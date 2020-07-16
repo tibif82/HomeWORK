@@ -143,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .slider .slick-arrow.slick-prev {
   left: 25px;
-  background: url("../assets/left.png") 0 0/100% no-repeat;
+  background: url("./assets/left.png") 0 0/100% no-repeat;
 }
 .slider .slick-arrow.slick-prev:before {
   content: "";
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .slider .slick-arrow.slick-next {
   right: 25px;
-  background: url("../assets/right.png") 0 0/100% no-repeat;
+  background: url("./assets/right.png") 0 0/100% no-repeat;
 }
 .slider .slick-arrow.slick-next:before {
   content: "";
