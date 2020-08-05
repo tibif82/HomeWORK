@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 .header {
   max-width: 100%;
   height: 100vh;
@@ -6,10 +8,47 @@
 }
 
 .header__gamecart-face {
-  width: 150px;
-  height: 220px;
+  background-image: url(../img/back.png);
+  background-size: 100%;
+  width: 100px;
+  height: 150px;
   border: 2px solid green;
   background-color: #ece89d;
   border-radius: 10px;
   cursor: pointer;
 }
+
+.header .header__gamecart-face:hover {
+  -webkit-animation: shake 0.5s;
+          animation: shake 0.5s;
+}
+
+@-webkit-keyframes header__gamecart-face {
+  0% {
+    /* css свойства */
+  }
+
+  50% {
+    /* css свойства */
+  }
+
+  100% {
+    /* css свойства */
+  }
+}
+
+@keyframes header__gamecart-face {
+  0% {
+    /* css свойства */
+  }
+
+  50% {
+    /* css свойства */
+  }
+
+  100% {
+    /* css свойства */
+  }
+}
+
+.webp .header__gamecart-face{ background-image: url(../img/back.webp); }
