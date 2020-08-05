@@ -13,22 +13,18 @@
       background-color: #ece89d;
       border-radius: 10px;
       cursor: pointer;
+      display: inline-block;
    }
    .header__gamecart-face:hover {
-      animation: shake 0.5s;
+      background-image: url(../img/two.png);
+      animation: pulse 1s infinite;
    }
 }
 
 @keyframes header__gamecart-face {
    0% {
-      /* css свойства */
-   }
-
-   50% {
-      /* css свойства */
    }
 
    100% {
-      /* css свойства */
    }
 }
