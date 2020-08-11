@@ -20,14 +20,14 @@ testWebP(function (support) {
 
 const cardImg = [
    "six-pik", "six-dz", "six-cer", "six_chr",
-   "seven-pik", "seven-dz", "seven-chr", "seven-cer",
-   "eight-pik", "eight-dz", "eight-chr", "eight-cer",
-   "nine-pik", "nine-cer", "nine-chr", "nine-cer",
-   "ten-pik", "ten-dz", "ten-chr", "ten-cer",
-   "valet-pik", "valet-dz", "valet-chr", "valet-cer",
-   "dama-pik", "dama-dz", "dama-chr", "dama-cer",
-   "korol-pik", "korol-dz", "korol-chr", "korol-cer",
-   "tuz-pik", "tuz-dz", "tuz-chr", "tuz-cer",
+   "seven-pik", "seven-dz", "seven-cer", "seven-chr",
+   "eight-pik", "eight-dz", "eight-cer", "eight-chr",
+   "nine-pik", "nine-cer", "nine-cer", "nine-chr",
+   "ten-pik", "ten-dz", "ten-cer", "ten-chr",
+   "valet-pik", "valet-dz", "valet-cer", "valet-chr",
+   "dama-pik", "dama-dz", "dama-cer", "dama-chr",
+   "korol-pik", "korol-dz", "korol-cer", "korol-chr",
+   "tuz-pik", "tuz-dz", "tuz-cer", "tuz-chr",
 ]
 
 function createCart(card) {
@@ -44,5 +44,5 @@ function createCart(card) {
    return cart;
 }
 cardImg.forEach(element => {
-   $('.header').append(createCart(element));
+   $('.container').append(createCart(element));
 }) 
