@@ -18,9 +18,28 @@ testWebP(function (support) {
 // *********************************************************
 // *********************************************************
 
-$(".myDiv").hover(function () {
-   $(this).addClass('animated ' + $(this).data('action'));
-});
-$(".myDiv").bind("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd", function () {
-   $(this).removeClass('animated ' + $(this).data('action'));
-});
+const cardImg = [
+   "six-pik", "six-dz", "six-cer", "six_chr",
+   "seven-pik", "seven-dz", "seven-chr", "seven-cer",
+   "eight-pik", "eight-dz", "eight-chr", "eight-cer",
+   "nine-pik", "nine-cer", "nine-chr", "nine-cer",
+   "ten-pik", "ten-dz", "ten-chr", "ten-cer",
+   "", "", "", "",
+]
+
+function createCart(card) {
+   let cart = `<div class="flip-card">
+   <div class="flip-card-inner">
+     <div class="flip-card-front">
+       <img src="/img/back.png">
+     </div>
+     <div class="flip-card-back">
+      <img src="/img/${card}.png">
+     </div>
+   </div>
+ </div>`
+   return cart;
+}
+cardImg.forEach(element => {
+   $('.header').append(createCart(element));
+}) 

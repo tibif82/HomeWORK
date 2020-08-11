@@ -1,48 +1,60 @@
-.header {
-  max-width: 100%;
-  height: 100vh;
-  background-color: #18b5a4;
-  padding: 10px;
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
 }
 
-.header__gamecart-face {
-  background-image: url(../img/back.png);
-  background-size: 100%;
-  width: 100px;
-  height: 150px;
-  border: 2px solid green;
-  background-color: #ece89d;
-  border-radius: 10px;
-  cursor: pointer;
-  display: inline-block;
+/* This container is needed to position the front and back side */
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: -webkit-transform 0.8s;
+  -o-transition: transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
 }
 
-.header .header__gamecart-face:hover {
-  background-image: url(../img/two.png);
-  -webkit-animation: pulse 1s infinite;
-          animation: pulse 1s infinite;
+/* Do an horizontal flip when you move the mouse over the flip box container */
+
+.flip-card:hover .flip-card-inner {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
-@-webkit-keyframes header__gamecart-face {
-  0% {
+/* Position the front and back side */
 
-  }
-
-  100% {
-
-  }
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
 }
 
-@keyframes header__gamecart-face {
-  0% {
+/* Style the front side (fallback if image is missing) */
 
-  }
-
-  100% {
-
-  }
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
 }
 
-.webp .header__gamecart-face { background-image: url(../img/back.webp); }
+/* Style the back side */
 
-.webp .header .header__gamecart-face:hover { background-image: url(../img/two.webp); }
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
