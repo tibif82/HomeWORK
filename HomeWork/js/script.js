@@ -24,7 +24,10 @@ const cardImg = [
    "eight-pik", "eight-dz", "eight-chr", "eight-cer",
    "nine-pik", "nine-cer", "nine-chr", "nine-cer",
    "ten-pik", "ten-dz", "ten-chr", "ten-cer",
-   "", "", "", "",
+   "valet-pik", "valet-dz", "valet-chr", "valet-cer",
+   "dama-pik", "dama-dz", "dama-chr", "dama-cer",
+   "korol-pik", "korol-dz", "korol-chr", "korol-cer",
+   "tuz-pik", "tuz-dz", "tuz-chr", "tuz-cer",
 ]
 
 function createCart(card) {
