@@ -1,0 +1,29 @@
+@mixin font($font_name, $file_name, $weight, $style) {
+   @font-face {
+      font-family: $font_name;
+      font-display: swap;
+      src: url("../fonts/#{$file_name}.woff") format("woff"), url("../fonts/#{$file_name}.woff2") format("woff2");
+      font-weight: #{$weight};
+      font-style: #{$style};
+   }
+}
+@import "fonts";
+
+body {
+}
+
+@import "./vendors/resetstyle.scss";
+@import "fonts.scss";
+@import "mixins.scss";
+
+// ***** sceleton ******
+@import "sceleton/header.scss";
+@import "sceleton/about.scss";
+@import "sceleton/work.scss";
+@import "sceleton/strategy.scss";
+@import "sceleton/series.scss";
+@import "sceleton/team.scss";
+@import "sceleton/testimonials.scss";
+@import "sceleton/blog.scss";
+@import "sceleton/contact.scss";
+@import "sceleton/layet.scss";
