@@ -151,3 +151,103 @@ h6 {
   font-weight: 400;
   font-style: normal;
 }
+
+.header {
+  max-width: 100%;
+  max-height: 1118px;
+  background-image: url(../../img/header/bg-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-family: "MyriadPro";
+}
+
+.header__block {
+  max-width: 666px;
+  height: auto;
+  padding-top: 114px;
+  padding-left: 40px;
+  padding-bottom: 64px;
+}
+
+.header__title {
+  font-size: 202px;
+  letter-spacing: -10.1px;
+  font-weight: bold;
+}
+
+.header__info {
+  max-width: 390px;
+  padding-bottom: 30px;
+}
+
+.header__title:first-letter,
+.header__info:first-letter {
+  color: #ffc600;
+}
+
+.header__info,
+.header__download {
+  font-size: 18px;
+  text-align: left;
+}
+
+.header__download a {
+  color: #ffc600;
+}
+
+.header__wrapp {
+  max-width: 1198px;
+  height: auto;
+  background-image: url(../../img/header/bg-2.jpg);
+  background-repeat: no-repeat;
+}
+
+.header__wrapp-cont {
+  padding: 70px 0 422px 40px;
+}
+
+.header__subtitle {
+  font-size: 60px;
+  font-weight: bold;
+  max-width: 450px;
+  line-height: 0.8;
+  letter-spacing: -3px;
+  text-align: left;
+  padding-bottom: 60px;
+}
+
+.header__subtitle-yellow {
+  color: #ffc600;
+}
+
+.container {
+  max-width: 1198px;
+  margin: 0 auto;
+}
+
+.menu .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.item:not(:first-child) > .url-item {
+  margin-left: 30px;
+}
+
+.url-item {
+  color: #ffc600;
+  font-size: 18px;
+}
+
+.url-item:hover {
+  color: #fff;
+  -webkit-box-shadow: 0px 1px 0px 0px #ffc600;
+          box-shadow: 0px 1px 0px 0px #ffc600;
+}
+
+.webp .header { background-image: url(../../img/header/bg-1.webp); }
+
+.webp .header__wrapp { background-image: url(../../img/header/bg-2.webp); }

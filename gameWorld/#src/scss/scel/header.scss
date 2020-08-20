@@ -1,0 +1,93 @@
+.header {
+   max-width: 100%;
+   max-height: 1118px;
+   background-image: url(../../img/header/bg-1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   color: $color-1;
+   font-family: "MyriadPro";
+
+   &__block {
+      max-width: 666px;
+      height: auto;
+      padding-top: 114px;
+      padding-left: 40px;
+      padding-bottom: 64px;
+   }
+
+   &__title {
+      font-size: 202px;
+      letter-spacing: -10.1px;
+      font-weight: bold;
+   }
+
+   &__info {
+      max-width: 390px;
+      padding-bottom: 30px;
+   }
+
+   &__title:first-letter,
+   &__info:first-letter {
+      color: $color-4;
+   }
+
+   &__info,
+   &__download {
+      font-size: 18px;
+      text-align: left;
+   }
+
+   &__download a {
+      color: $color-4;
+   }
+
+   &__wrapp {
+      max-width: 1198px;
+      height: auto;
+      background-image: url(../../img/header/bg-2.jpg);
+      background-repeat: no-repeat;
+   }
+
+   &__wrapp-cont {
+      padding: 70px 0 422px 40px;
+   }
+
+   &__subtitle {
+      font-size: 60px;
+      font-weight: bold;
+      max-width: 450px;
+      line-height: 0.8;
+      letter-spacing: -3px;
+      text-align: left;
+      padding-bottom: 60px;
+   }
+
+   &__subtitle-yellow {
+      color: $color-4;
+   }
+}
+
+.container {
+   max-width: 1198px;
+   margin: 0 auto;
+}
+.menu {
+   .list {
+      display: flex;
+   }
+}
+
+.item:not(:first-child) > .url-item {
+   margin-left: 30px;
+}
+
+.url-item {
+   color: $color-4;
+   font-size: 18px;
+
+   &:hover {
+      color: $color-1;
+      box-shadow: 0px 1px 0px 0px #ffc600;
+   }
+}

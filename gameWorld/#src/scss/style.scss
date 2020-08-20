@@ -9,21 +9,24 @@
 }
 @import "fonts";
 
-body {
-}
+// body {
+
+// }
 
 @import "./vendors/resetstyle.scss";
 @import "fonts.scss";
 @import "mixins.scss";
+@import "variables";
 
-// ***** sceleton ******
-@import "sceleton/header.scss";
-@import "sceleton/about.scss";
-@import "sceleton/work.scss";
-@import "sceleton/strategy.scss";
-@import "sceleton/series.scss";
-@import "sceleton/team.scss";
-@import "sceleton/testimonials.scss";
-@import "sceleton/blog.scss";
-@import "sceleton/contact.scss";
-@import "sceleton/layet.scss";
+// ***** scel ******
+@import "scel/wrapper.scss";
+@import "scel/header.scss";
+@import "scel/about.scss";
+@import "scel/work.scss";
+@import "scel/strategy.scss";
+@import "scel/series.scss";
+@import "scel/team.scss";
+@import "scel/testimonials.scss";
+@import "scel/blog.scss";
+@import "scel/contact.scss";
+@import "scel/layet.scss";
