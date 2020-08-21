@@ -248,6 +248,110 @@ h6 {
           box-shadow: 0px 1px 0px 0px #ffc600;
 }
 
+.about {
+  font-family: "MyriadPro";
+  background-color: #fff;
+}
+
+.about__wrapper {
+  padding: 36px 0px 111px 133px;
+}
+
+.about__upper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 72px;
+}
+
+.about__title span {
+  color: #717171;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.about__title h2 {
+  font-size: 80px;
+  text-align: left;
+  padding-right: 165px;
+}
+
+.about__title h2:first-letter {
+  color: #ffc600;
+}
+
+.about__title:after {
+  display: block;
+  content: "";
+  color: #717171;
+  width: 133px;
+  height: 1px;
+  border: 1px solid #c5c5c5;
+  margin: -6px auto;
+}
+
+.about__text {
+  color: #595959;
+}
+
+.about__text .sub-text {
+  font-size: 16px;
+  font-style: italic;
+  color: #000;
+  margin-bottom: 11px;
+}
+
+.about__lower {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.about__app,
+.about__game,
+.about__cont {
+  text-align: center;
+}
+
+.about__ico {
+  margin: 0 auto;
+  background-color: #e8e8e8;
+  display: inline-block;
+  width: 57px;
+  height: 57px;
+  border: 2px solid #ffa800;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+
+.about__subtitle {
+  font-size: 18px;
+  margin-bottom: 19px;
+}
+
+.about__txt {
+  max-width: 231px;
+  font-size: 10px;
+  font-style: italic;
+}
+
+.about__txt p {
+  margin-bottom: 17px;
+}
+
 @media (max-width: 1024px) {
   .header__title {
     padding: 80px 0 30px 0;
