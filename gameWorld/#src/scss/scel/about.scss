@@ -1,7 +1,7 @@
 .about {
    font-family: "MyriadPro";
    background-color: $color-1;
-   height: 55vh;
+   max-height: 667px;
 
    @media (max-width: 375px) {
       height: auto;
@@ -196,6 +196,4 @@
    &__txt p {
       margin-bottom: 17px;
    }
-}
-.container {
 }

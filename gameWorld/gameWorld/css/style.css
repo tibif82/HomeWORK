@@ -251,7 +251,7 @@ h6 {
 .about {
   font-family: "MyriadPro";
   background-color: #fff;
-  height: 55vh;
+  max-height: 667px;
 }
 
 .about__wrapper {
