@@ -2,42 +2,33 @@
    font-family: "MyriadPro";
    background-color: $color-1;
    max-height: 667px;
-
    @media (max-width: 375px) {
-      height: auto;
-   }
-   @media (max-width: 414px) {
-      height: auto;
+      max-height: 1069px;
    }
 
    &__wrapper {
-      padding: 36px 0px 111px 133px;
+      padding-bottom: 111px;
       @media (max-width: 1024px) {
-         padding: 36px 20px 36px 20px;
+         padding-bottom: 36px;
       }
    }
 
    &__upper {
       display: flex;
       padding-bottom: 72px;
-
-      @media (max-width: 768px) {
-         padding-bottom: 25px;
-      }
-      @media (max-width: 414px) {
-         display: inline-block;
+      padding: 36px 5px 72px 133px;
+      @media (max-width: 1024px) {
+         padding: 36px 20px 36px 20px;
       }
       @media (max-width: 375px) {
          display: inline-block;
+         padding: 36px 20px 18px 20px;
       }
    }
 
    &__title {
-      @media (max-width: 414px) {
+      @media (max-width: 375px) {
          padding-bottom: 20px;
-      }
-      @media (max-width: 376px) {
-         margin-bottom: 20px;
       }
    }
 
@@ -53,11 +44,8 @@
       text-align: left;
       padding-right: 165px;
 
-      @media (max-width: 1024px) {
-         padding-right: 60px;
-      }
       @media (max-width: 768px) {
-         padding-right: 35px;
+         padding-right: 30px;
       }
    }
 
@@ -66,10 +54,6 @@
    &__br {
       display: flex;
       align-items: center;
-
-      @media (max-width: 1024px) {
-         max-width: 100%;
-      }
    }
 
    &__line {
@@ -78,8 +62,11 @@
       height: 100px;
       margin-right: 20px;
 
-      @media (max-width: 768px) {
-         height: 200px;
+      @media (max-width: 1024px) {
+         height: 145px;
+      }
+      @media (max-width: 375px) {
+         height: 195px;
       }
    }
 
@@ -98,18 +85,14 @@
       border: 1px solid $color-10;
       margin: -6px auto;
 
-      @media (max-width: 768px) {
-         border: none;
+      @media (max-width: 375px) {
+         border: 0;
       }
    }
 
    &__text {
       color: $color-3;
       position: relative;
-
-      @media (max-width: 320px) {
-         padding-right: 35px;
-      }
    }
 
    &__text .sub-text {
@@ -124,16 +107,13 @@
    // ********************************
    &__inner {
       @media (max-width: 375px) {
-         text-align: center;
+         display: flex;
+         justify-content: center;
       }
    }
    &__lower {
       display: flex;
-      justify-content: space-between;
-
-      @media (max-width: 414px) {
-         display: inline-block;
-      }
+      justify-content: space-around;
 
       @media (max-width: 375px) {
          display: inline-block;
@@ -144,13 +124,6 @@
    &__game,
    &__cont {
       text-align: center;
-
-      @media (max-width: 414px) {
-         padding-bottom: 15px;
-      }
-      @media (max-width: 375px) {
-         padding-bottom: 7px;
-      }
    }
 
    &__ico {
@@ -166,6 +139,10 @@
       align-items: center;
       margin-bottom: 24px;
       cursor: pointer;
+
+      @media (max-width: 375px) {
+         margin-bottom: 15px;
+      }
    }
    &__ico:hover {
       box-shadow: 0px 0px 12px 0px #ffa800;
@@ -174,6 +151,10 @@
    &__subtitle {
       font-size: 18px;
       margin-bottom: 19px;
+
+      @media (max-width: 375px) {
+         margin-bottom: 14px;
+      }
    }
    &__txt {
       max-width: 239px;
@@ -181,16 +162,10 @@
       font-size: 10px;
       font-style: italic;
 
-      @media (max-width: 414px) {
-         max-width: 340px;
-         font-size: 14px;
-         margin-bottom: 25px;
-      }
-
       @media (max-width: 375px) {
-         max-width: 320px;
-         height: auto;
-         font-size: 14px;
+         max-width: 300px;
+         font-size: 12px;
+         margin-bottom: 20px;
       }
    }
    &__txt p {
