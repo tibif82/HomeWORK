@@ -251,6 +251,7 @@ h6 {
 .about {
   font-family: "MyriadPro";
   background-color: #fff;
+  height: 100vh;
 }
 
 .about__wrapper {
@@ -277,6 +278,22 @@ h6 {
   padding-right: 165px;
 }
 
+.about__br {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about__line {
+  border: 1px solid #c5c5c5;
+  width: 1px;
+  height: 100px;
+  margin-right: 20px;
+}
+
 .about__title h2:first-letter {
   color: #ffc600;
 }
@@ -293,6 +310,7 @@ h6 {
 
 .about__text {
   color: #595959;
+  position: relative;
 }
 
 .about__text .sub-text {
@@ -306,8 +324,9 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .about__app,
@@ -337,13 +356,19 @@ h6 {
   cursor: pointer;
 }
 
+.about__ico:hover {
+  -webkit-box-shadow: 0px 0px 12px 0px #ffa800;
+          box-shadow: 0px 0px 12px 0px #ffa800;
+}
+
 .about__subtitle {
   font-size: 18px;
   margin-bottom: 19px;
 }
 
 .about__txt {
-  max-width: 231px;
+  max-width: 239px;
+  height: 82px;
   font-size: 10px;
   font-style: italic;
 }
@@ -375,6 +400,18 @@ h6 {
   .url-item {
     font-size: 1.8rem;
   }
+
+  .about__wrapper {
+    padding: 36px 20px 36px 20px;
+  }
+
+  .about__title h2 {
+    padding-right: 60px;
+  }
+
+  .about__br {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -382,6 +419,22 @@ h6 {
     max-width: 80%;
     font-size: 1.5rem;
     line-height: 1.3;
+  }
+
+  .about__upper {
+    padding-bottom: 25px;
+  }
+
+  .about__title h2 {
+    padding-right: 35px;
+  }
+
+  .about__line {
+    height: 200px;
+  }
+
+  .about__title:after {
+    border: none;
   }
 }
 
@@ -401,6 +454,40 @@ h6 {
 
   .url-item {
     font-size: 18px;
+  }
+
+  .about {
+    height: auto;
+  }
+
+  .about__upper {
+    display: inline-block;
+  }
+
+  .about__title {
+    padding-bottom: 20px;
+  }
+
+  .about__lower {
+    display: inline-block;
+  }
+
+  .about__app,
+  .about__game,
+  .about__cont {
+    padding-bottom: 15px;
+  }
+
+  .about__txt {
+    max-width: 340px;
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 376px) {
+  .about__title {
+    margin-bottom: 20px;
   }
 }
 
@@ -425,6 +512,34 @@ h6 {
   .url-item {
     font-size: 15px;
   }
+
+  .about {
+    height: auto;
+  }
+
+  .about__upper {
+    display: inline-block;
+  }
+
+  .about__inner {
+    text-align: center;
+  }
+
+  .about__lower {
+    display: inline-block;
+  }
+
+  .about__app,
+  .about__game,
+  .about__cont {
+    padding-bottom: 7px;
+  }
+
+  .about__txt {
+    max-width: 320px;
+    height: auto;
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -447,6 +562,10 @@ h6 {
 
   .url-item {
     font-size: 15px;
+  }
+
+  .about__text {
+    padding-right: 35px;
   }
 }
 
