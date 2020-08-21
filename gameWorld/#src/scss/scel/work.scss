@@ -1,0 +1,22 @@
+.work {
+   background-color: $color-1;
+   &__top {
+   }
+   &__title {
+   }
+   &__menu {
+   }
+   &__list {
+      display: flex;
+   }
+   &__item {
+   }
+   &__url {
+   }
+   &__bottom {
+      display: flex;
+      flex-wrap: wrap;
+   }
+}
+.container {
+}
