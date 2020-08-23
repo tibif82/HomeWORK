@@ -1,7 +1,7 @@
 .header {
    max-width: 100%;
    max-height: 1118px;
-   background-image: url(../../img/header/bg-1.jpg);
+   background-image: url(../img/header/bg-1.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -106,7 +106,7 @@
    &__wrapp {
       max-width: 1198px;
       height: auto;
-      background-image: url(../../img/header/bg-2.jpg);
+      background-image: url(../img/header/bg-2.jpg);
       background-repeat: no-repeat;
 
       @media (max-width: 375px) {
