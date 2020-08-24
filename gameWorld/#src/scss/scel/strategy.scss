@@ -1,7 +1,14 @@
 .strategy {
+   background-color: $color-1;
+   font-family: "MyriadPro";
+
    &__upper {
+      max-width: 1055px;
+      padding-bottom: 43px;
+      margin: 0 auto;
    }
    &__title {
+      padding-bottom: 26px;
    }
    &__info {
    }
@@ -9,8 +16,14 @@
    }
 
    &__lower {
+      max-width: 860px;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      padding-bottom: 64px;
    }
    &__block {
+      max-width: 430px;
    }
    &__block-title {
    }

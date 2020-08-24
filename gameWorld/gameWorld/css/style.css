@@ -437,6 +437,36 @@ h6 {
       flex-wrap: wrap;
 }
 
+.strategy {
+  background-color: #fff;
+  font-family: "MyriadPro";
+}
+
+.strategy__upper {
+  max-width: 1055px;
+  padding-bottom: 43px;
+  margin: 0 auto;
+}
+
+.strategy__title {
+  padding-bottom: 26px;
+}
+
+.strategy__lower {
+  max-width: 860px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+  padding-bottom: 64px;
+}
+
+.strategy__block {
+  max-width: 430px;
+}
+
 @media (max-width: 1024px) {
   .header__info,
   .header__download {
