@@ -166,9 +166,7 @@ h6 {
 .header__block {
   max-width: 666px;
   height: auto;
-  padding-top: 114px;
-  padding-left: 40px;
-  padding-bottom: 64px;
+  padding: 114px 10px 64px 40px;
 }
 
 .header__title {
@@ -262,7 +260,7 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   padding-bottom: 72px;
-  padding: 36px 5px 72px 133px;
+  padding: 36px 25px 72px 133px;
 }
 
 .about__title span {
@@ -276,6 +274,7 @@ h6 {
   font-size: 80px;
   text-align: left;
   padding-right: 165px;
+  display: block;
 }
 
 .about__br {
@@ -305,7 +304,7 @@ h6 {
   width: 133px;
   height: 1px;
   border: 1px solid #c5c5c5;
-  margin: -6px auto;
+  margin: -6px 0px -6px 148px;
 }
 
 .about__text {
@@ -367,7 +366,7 @@ h6 {
 
 .about__txt {
   max-width: 239px;
-  height: 82px;
+  min-height: 82px;
   font-size: 10px;
   font-style: italic;
 }
@@ -395,82 +394,23 @@ h6 {
 }
 
 @media (max-width: 1024px) {
-  .header__title {
-    padding: 80px 0 30px 0;
-  }
-
-  .header__info {
-    font-size: 2rem;
-    max-width: 100%;
-    line-height: 1.5;
-  }
-
   .header__info,
   .header__download {
-    padding-bottom: 55px;
+    padding-bottom: 32px;
   }
 
   .header__download a {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .url-item {
     font-size: 1.8rem;
   }
-
-  .about__wrapper {
-    padding-bottom: 36px;
-  }
-
-  .about__upper {
-    padding: 36px 20px 36px 20px;
-  }
-
-  .about__line {
-    height: 145px;
-  }
-}
-
-@media (max-width: 768px) {
-  .header__info {
-    max-width: 80%;
-    font-size: 1.5rem;
-    line-height: 1.3;
-  }
-
-  .about__title h2 {
-    padding-right: 30px;
-  }
 }
 
 @media (max-width: 575px) {
-  .header__title {
-    font-size: 4rem;
-    line-height: 1;
-    letter-spacing: -3px;
-  }
-}
-
-@media (max-width: 414px) {
-  .header__title {
-    font-size: 7rem;
-    padding-bottom: 5rem;
-  }
-
-  .url-item {
-    font-size: 18px;
-  }
-
-  .about__upper {
-    display: inline-block;
-  }
-
   .about__title {
-    margin-bottom: 1rem;
-  }
-
-  .about__title:after {
-    border: 0;
+    padding-bottom: 20px;
   }
 
   .about__inner {
@@ -486,9 +426,9 @@ h6 {
     display: inline-block;
   }
 
-  .about__txt {
-    max-width: 360px;
-    font-size: 12px;
+  .about__app,
+  .about__game,
+  .about__cont {
     margin-bottom: 20px;
   }
 }
@@ -498,38 +438,30 @@ h6 {
     padding-bottom: 65px;
   }
 
-  .header__title {
-    padding-bottom: 20px;
-    font-size: 6.5rem;
-  }
-
-  .header__info {
-    padding-right: 8px;
-  }
-
   .header__wrapp {
     background-size: cover;
   }
+}
 
-  .url-item {
-    font-size: 15px;
+@media (max-width: 320px) {
+  .header__block {
+    padding-top: 3rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .header__title {
+    font-size: 10rem;
+    margin-bottom: 20px;
   }
 
   .about__upper {
     display: inline-block;
-    padding: 36px 20px 18px 20px;
+    padding: 36px 30px 40px 30px;
   }
 
   .about__title {
-    padding-bottom: 20px;
-  }
-
-  .about__line {
-    height: 195px;
-  }
-
-  .about__title:after {
-    border: 0;
+    padding-bottom: 30px;
   }
 
   .about__inner {
@@ -545,51 +477,104 @@ h6 {
     display: inline-block;
   }
 
-  .about__ico {
-    margin-bottom: 15px;
-  }
-
-  .about__subtitle {
-    margin-bottom: 14px;
+  .about__app,
+  .about__game,
+  .about__cont {
+    margin-bottom: 20px;
   }
 
   .about__txt {
-    max-width: 337px;
-    font-size: 12px;
-    margin-bottom: 20px;
+    max-width: 400px;
+    font-size: 14px;
   }
 }
 
-@media (max-width: 320px) {
-  .header__block {
-    padding-top: 3rem;
-  }
-
+@media (min-width: 515px) and (max-width: 575px) {
   .header__title {
-    font-size: 5.5rem;
+    margin-bottom: 20px;
+    font-size: 9rem;
   }
+}
 
+@media (min-width: 320px) and (max-width: 514px) {
+  .header__title {
+    margin-bottom: 40px;
+    letter-spacing: 0.5px;
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1200px) {
   .header__info {
-    padding-right: 0;
-    font-size: 1.2rem;
+    max-width: 800px;
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 515px) {
+  .menu .list {
+    display: inline-block;
+    font-size: 45px;
   }
 
   .item:not(:first-child) > .url-item {
-    margin-left: 15px;
+    margin-left: 0;
   }
+}
 
+@media (min-width: 376px) and (max-width: 514px) {
   .url-item {
-    font-size: 15px;
+    font-size: 27px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about__upper {
+    display: inline-block;
   }
 
-  .about__title h2 {
-    padding-right: 0px;
+  .about__title {
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .about__upper {
+    display: inline-block;
+  }
+
+  .about__title {
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .about__upper {
+    display: inline-block;
+    padding: 36px 30px 40px 30px;
   }
 
   .about__txt {
-    max-width: 300px;
-    font-size: 12px;
-    margin-bottom: 20px;
+    max-width: 400px;
+    font-size: 14px;
+    padding: 0 15px 0 15px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 512px) {
+  .about__title h2 {
+    font-size: 74px;
+    padding-right: 0;
+  }
+
+  .about__title:after {
+    margin: -6px 0px -6px 125px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 440px) {
+  .about__line {
+    height: 200px;
   }
 }
 
