@@ -3,9 +3,23 @@
    font-family: "MyriadPro";
 
    &__upper {
+      padding: 0 15px 0 15px;
       max-width: 1055px;
       padding-bottom: 43px;
       margin: 0 auto;
+
+      @media (max-width: 1200px) {
+         padding: 0 116px 0 81px;
+         margin-bottom: 43px;
+      }
+
+      @media (min-width: 992px) and (max-width: 1199px) {
+         padding: 0 97px 0 64px;
+      }
+
+      @media (min-width: 768px) and (max-width: 991px) {
+         margin-bottom: 5px;
+      }
    }
 
    &__title {
@@ -37,36 +51,76 @@
       margin-bottom: 11px;
    }
 
+   // ***********************
+   //******нижній блок*******
+   // ***********************
+
    &__lower {
-      max-width: 894px;
+      max-width: 860px;
       display: flex;
       flex-wrap: wrap;
       margin: 0 auto;
       padding-bottom: 64px;
+      position: relative;
+
+      @media (min-width: 768px) and (max-width: 991px) {
+         justify-content: center;
+         padding: 0 10px 0 10px;
+         padding: 30px;
+      }
+      @media (min-width: 320px) and (max-width: 767px) {
+         flex-direction: column;
+         align-items: center;
+      }
    }
 
-   &__block {
-      max-width: 430px;
-   }
-
-   &__block:nth-child(2),
-   &__block:nth-child(6) {
-      padding-left: 34px;
+   &__wrapp {
+      max-width: 894px;
       display: flex;
       align-items: center;
+      position: relative;
    }
 
-   &__block:nth-child(3) {
-      padding-right: 34px;
-      display: flex;
-      align-items: center;
+   &__block-txt {
+      @media (max-width: 895px) {
+         position: absolute;
+         left: 50%;
+         transform: translateX(-50%);
+      }
+   }
+
+   &__img {
+      @include image;
+      box-shadow: 3px 3px 15px -1px rgba(0, 0, 0, 0.75);
+   }
+
+   &__block-img,
+   &__block-txt {
+      max-width: 50%;
+      width: 100%;
+      @media (max-width: 895px) {
+         max-width: 600px;
+      }
+   }
+
+   &__inner-1,
+   &__inner-3 {
+      margin-left: 34px;
+   }
+
+   &__inner-2 {
+      margin-right: 34px;
    }
 
    &__block-title {
       font-size: 30px;
       font-weight: 600;
       margin-bottom: 38px;
+      @media (min-width: 768px) and (max-width: 991px) {
+         margin-bottom: 10px;
+      }
    }
+
    &__text {
       font-size: 14px;
       color: $color-3;

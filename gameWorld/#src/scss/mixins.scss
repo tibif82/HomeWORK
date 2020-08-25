@@ -6,3 +6,9 @@
    height: 1px;
    border: 1px solid;
 }
+
+@mixin image {
+   display: block;
+   max-width: 100%;
+   height: auto;
+}
