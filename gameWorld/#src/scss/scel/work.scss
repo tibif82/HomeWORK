@@ -36,6 +36,12 @@
       text-align: left;
       margin-bottom: 23px;
    }
+   &__title:after {
+      @include grayline;
+      margin: -6px 0px -6px 103px;
+      margin-top: 3px;
+   }
+
    &__title:first-letter {
       color: $color-4;
 

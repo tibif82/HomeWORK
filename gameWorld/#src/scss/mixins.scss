@@ -1,0 +1,8 @@
+@mixin grayline {
+   display: block;
+   content: "";
+   color: $color-10;
+   width: 123px;
+   height: 1px;
+   border: 1px solid;
+}
