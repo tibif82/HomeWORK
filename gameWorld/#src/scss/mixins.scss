@@ -12,3 +12,10 @@
    max-width: 100%;
    height: auto;
 }
+
+@mixin pendent {
+   font-style: italic;
+   font-size: 16px;
+   color: $color-2;
+   margin-bottom: 11px;
+}
