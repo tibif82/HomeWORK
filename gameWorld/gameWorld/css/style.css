@@ -645,6 +645,7 @@ h6 {
 }
 
 .team__wrapper {
+  padding: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -724,6 +725,18 @@ h6 {
   .series__info {
     margin-top: 17px;
   }
+
+  .team__wrapper {
+    display: inline-block;
+  }
+
+  .team__inner {
+    text-align: left;
+  }
+
+  .container {
+    text-align: center;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -782,6 +795,36 @@ h6 {
   .strategy__text {
     color: #fff;
     font-size: 15px;
+  }
+}
+
+@media (max-width: 769px) {
+  .team {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .team__title {
+    margin-right: 0;
+    display: inherit;
+  }
+
+  .team__description {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .team__foto {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .team__foto-3,
+  .team__foto-4 {
+    margin-right: 0;
   }
 }
 
@@ -884,6 +927,20 @@ h6 {
   .series__subtitle {
     font-size: 20px;
   }
+
+  .team__foto-1,
+  .team__foto-2 {
+    margin-right: 0px;
+    padding-bottom: 20px;
+  }
+
+  .team__foto-1 {
+    margin-right: 5px;
+  }
+
+  .team__foto-3 {
+    margin-right: 5px;
+  }
 }
 
 @media (max-width: 414px) {
@@ -937,6 +994,14 @@ h6 {
 
   .series__text {
     font-size: 13px;
+  }
+
+  .team__foto-1,
+  .team__foto-2,
+  .team__foto-4,
+  .team__foto-3 {
+    margin-right: 0;
+    padding-bottom: 35px;
   }
 }
 
