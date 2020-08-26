@@ -709,6 +709,73 @@ h6 {
   text-align: center;
 }
 
+.testimonials {
+  font-family: "MyriadPro";
+  color: #fff;
+  padding: 55px 0 136px 0;
+}
+
+.testimonials__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.testimonials__title {
+  padding-bottom: 26px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: left;
+  padding-bottom: 84px;
+}
+
+.testimonials__title:first-letter {
+  color: #ffc600;
+}
+
+.testimonials__title:after {
+  display: block;
+  content: "";
+  color: #c5c5c5;
+  width: 123px;
+  height: 1px;
+  border: 1px solid;
+  width: 103px;
+  margin: -6px 0px -6px 57px;
+  margin-top: 5px;
+}
+
+.testimonials__descriptions {
+  max-width: 624px;
+  display: inline-block;
+  margin-left: 42px;
+  margin-right: 87px;
+}
+
+.testimonials__bent {
+  font-style: italic;
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 11px;
+  color: #fff;
+}
+
+.testimonials__foto {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.testimonials__img {
+  border-radius: 50%;
+  display: block;
+  border: 2px solid #ffa800;
+  margin-bottom: 26px;
+}
+
+.testimonials__position {
+  font-size: 16px;
+}
+
 @media (max-width: 1200px) {
   .strategy__upper {
     padding: 0 116px 0 81px;
