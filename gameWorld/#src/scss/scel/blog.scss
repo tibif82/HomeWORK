@@ -5,6 +5,9 @@
 
    &__wrapp {
       display: flex;
+      @media (max-width: 1025px) {
+         display: inline-block;
+      }
    }
    &__left {
    }
@@ -15,6 +18,11 @@
       padding-bottom: 0;
       margin-bottom: 50px;
       margin-top: 60px;
+
+      @media (max-width: 1025px) {
+         text-align: center;
+         font-size: 60px;
+      }
    }
    &__title:first-letter {
       @include fLeter;
@@ -24,6 +32,15 @@
       width: 84px;
       margin: -6px 0px -6px 0px;
       margin-top: 5px;
+      @media (max-width: 1025px) {
+         width: 120px;
+         margin: -6px 0px -6px 470px;
+         margin-top: 5px;
+      }
+      @media (max-width: 769px) {
+         margin: -6px 0px -6px 335px;
+         margin-top: 5px;
+      }
    }
    // **************************
 
@@ -31,8 +48,15 @@
       font-size: 18px;
       margin-left: 87px;
       margin-right: 115px;
+
+      @media (max-width: 769px) {
+         margin: 0 10px 0 10px;
+      }
    }
    &__list {
+      @media (max-width: 1025px) {
+         display: flex;
+      }
    }
    &__url {
    }
@@ -40,7 +64,6 @@
    // **************************
    &__item {
       color: $color-2;
-      // margin-bottom: 25px;
    }
    &__item:hover {
       color: $color-4;
@@ -55,6 +78,9 @@
    }
    &__inner {
       display: flex;
+      @media (max-width: 1025px) {
+         justify-content: center;
+      }
    }
    &__box {
    }
