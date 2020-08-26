@@ -775,6 +775,99 @@ h6 {
   font-size: 16px;
 }
 
+.blog {
+  font-family: "MyriadPro";
+  background-color: #fff;
+  padding: 0px 0 115px 0;
+}
+
+.blog__wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blog__title {
+  padding-bottom: 26px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: left;
+  padding-bottom: 0;
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+.blog__title:first-letter {
+  color: #ffc600;
+}
+
+.blog__title:after {
+  display: block;
+  content: "";
+  color: #c5c5c5;
+  width: 123px;
+  height: 1px;
+  border: 1px solid;
+  width: 84px;
+  margin: -6px 0px -6px 0px;
+  margin-top: 5px;
+}
+
+.blog__nav {
+  font-size: 18px;
+  margin-left: 87px;
+  margin-right: 115px;
+}
+
+.blog__item {
+  color: #000;
+}
+
+.blog__item:hover {
+  color: #ffc600;
+}
+
+.blog__url:not(:last-child) > .blog__item {
+  margin-bottom: 25px;
+}
+
+.blog__right {
+  margin-top: 30px;
+}
+
+.blog__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blog__box:nth-child(2) {
+  padding: 0 110px 0 82px;
+}
+
+.blog__img {
+  padding-bottom: 10px;
+}
+
+.blog__date {
+  color: #ffc600;
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
+.blog__subtitle {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+.blog__txt {
+  display: block;
+  width: 186px;
+  font-size: 12px;
+  font-style: italic;
+}
+
 @media (max-width: 1200px) {
   .strategy__upper {
     padding: 0 116px 0 81px;
