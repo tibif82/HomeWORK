@@ -637,6 +637,77 @@ h6 {
   letter-spacing: 0.5px;
 }
 
+.team {
+  font-family: "MyriadPro";
+  background-color: #fff;
+  padding-top: 85px;
+  padding-bottom: 149px;
+}
+
+.team__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.team__title {
+  width: 151px;
+  margin-top: 14px;
+  margin-right: 146px;
+  padding-bottom: 26px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.team__title:first-letter {
+  color: #ffc600;
+}
+
+.team__title:after {
+  display: block;
+  content: "";
+  color: #c5c5c5;
+  width: 123px;
+  height: 1px;
+  border: 1px solid;
+  width: 84px;
+  margin: -6px 0px -6px 37px;
+  margin-top: 3px;
+}
+
+.team__description {
+  max-width: 624px;
+  font-size: 14px;
+  color: #595959;
+  padding-bottom: 35px;
+}
+
+.team__bent {
+  font-style: italic;
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 11px;
+}
+
+.team__foto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.team__foto-1,
+.team__foto-2,
+.team__foto-3,
+.team__foto-4 {
+  margin-right: 20px;
+}
+
+.team__position {
+  margin-top: 16px;
+  text-align: center;
+}
+
 @media (max-width: 1200px) {
   .strategy__upper {
     padding: 0 116px 0 81px;
