@@ -559,10 +559,99 @@ h6 {
   color: #595959;
 }
 
+.series {
+  background-image: url(../../img/series/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-family: "MyriadPro";
+}
+
+.series .container {
+  text-align: center;
+}
+
+.series__wrapper {
+  padding: 55px 150px 58px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.series__title {
+  padding-bottom: 26px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: left;
+  margin-right: 200px;
+}
+
+.series__title:first-letter {
+  color: #ffc600;
+}
+
+.series__title:after {
+  display: block;
+  content: "";
+  color: #c5c5c5;
+  width: 123px;
+  height: 1px;
+  border: 1px solid;
+  margin: -6px 0px -6px 105px;
+  margin-top: 3px;
+}
+
+.series__info {
+  max-width: 541px;
+  margin-top: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.series__block {
+  max-width: 225px;
+}
+
+.series__block:first-child {
+  padding-bottom: 75px;
+}
+
+.series__block:first-child,
+.series__block:nth-child(3) {
+  margin-right: 91px;
+}
+
+.series__subtitle {
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 26px;
+}
+
+.series__text {
+  font-size: 11px;
+  text-align: left;
+  letter-spacing: 0.5px;
+}
+
 @media (max-width: 1200px) {
   .strategy__upper {
     padding: 0 116px 0 81px;
     margin-bottom: 20px;
+  }
+
+  .series__wrapper {
+    display: inline-block;
+    padding: 55px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .series__info {
+    margin-top: 17px;
   }
 }
 
@@ -606,13 +695,13 @@ h6 {
   .strategy__inner-1,
   .strategy__inner-3 {
     color: #fff;
-    margin-left: 24px;
+    margin-left: 18px;
   }
 
   .strategy__inner-2 {
     color: #fff;
     margin-right: 0;
-    margin-left: 24px;
+    margin-left: 18px;
   }
 
   .strategy__subtitle-pend {
@@ -660,6 +749,16 @@ h6 {
         -ms-flex-pack: center;
             justify-content: center;
   }
+
+  .series__title {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .series__title:after {
+    margin: -6px 0px -6px 125px;
+    margin-top: 3px;
+  }
 }
 
 @media (max-width: 449px) {
@@ -685,6 +784,37 @@ h6 {
   }
 }
 
+@media (max-width: 415px) {
+  .series__title:after {
+    margin: -6px 0 -6px 143px;
+    margin-top: 3px;
+  }
+
+  .series__block {
+    max-width: 385px;
+  }
+
+  .series__block:first-child {
+    padding-bottom: 20px;
+  }
+
+  .series__block:first-child,
+  .series__block:nth-child(3) {
+    max-width: 385px;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .series__block:nth-child(2) {
+    margin-right: 0;
+    padding-bottom: 20px;
+  }
+
+  .series__subtitle {
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 414px) {
   .work__title:first-letter {
     margin-left: 44px;
@@ -692,6 +822,50 @@ h6 {
 
   .work__menu {
     margin-left: 43px;
+  }
+
+  .series__text {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 376px) {
+  .series__title:after {
+    margin: -6px 0 -6px 159px;
+    margin-top: 3px;
+  }
+
+  .series__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .series__block {
+    max-width: 309px;
+  }
+
+  .series__block:first-child {
+    padding-bottom: 20px;
+  }
+
+  .series__block:first-child,
+  .series__block:nth-child(3) {
+    margin-right: 0;
+    padding-bottom: 20px;
+  }
+
+  .series__block:nth-child(2) {
+    margin-right: 0;
+    padding-bottom: 20px;
+  }
+
+  .series__subtitle {
+    font-size: 20px;
+  }
+
+  .series__text {
+    font-size: 13px;
   }
 }
 
@@ -710,6 +884,20 @@ h6 {
 
   .work__menu {
     margin-left: 25px;
+  }
+}
+
+@media (max-width: 326px) {
+  .series__title:after {
+    margin: -6px 0 -6px 107px;
+    margin-top: 3px;
+  }
+}
+
+@media (max-width: 321px) {
+  .series__title:after {
+    margin: -6px 0 -6px 132px;
+    margin-top: 3px;
   }
 }
 
@@ -932,6 +1120,14 @@ h6 {
   }
 }
 
+@media (min-width: 319px) and (max-width: 415px) {
+  .series__wrapper {
+    padding: 26px;
+  }
+}
+
 .webp .header { background-image: url(../img/header/bg-1.webp); }
 
 .webp .header__wrapp { background-image: url(../img/header/bg-2.webp); }
+
+.webp .series { background-image: url(../../img/series/bg.webp); }

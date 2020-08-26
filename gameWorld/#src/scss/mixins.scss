@@ -19,3 +19,14 @@
    color: $color-2;
    margin-bottom: 11px;
 }
+
+@mixin tlt {
+   padding-bottom: 26px;
+   font-size: 30px;
+   font-weight: 600;
+   text-align: left;
+}
+
+@mixin fLeter {
+   color: $color-4;
+}
