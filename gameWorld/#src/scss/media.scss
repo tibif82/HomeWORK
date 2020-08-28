@@ -1,0 +1,54 @@
+// ******* header *******
+@media (max-width: 575px) {
+   .container {
+      text-align: start;
+   }
+   .header__title {
+      font-size: 90px;
+      margin-bottom: 20px;
+   }
+   .header__info {
+      font-size: 15px;
+   }
+   .header__download {
+      font-size: 14px;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+   .container {
+      text-align: start;
+   }
+   .header__title {
+      font-size: 120px;
+      margin-bottom: 20px;
+   }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+   .container {
+      text-align: start;
+   }
+   .header__title {
+      font-size: 170px;
+      margin-bottom: 20px;
+   }
+}
+
+@media (max-width: 376px) {
+   .menu .list {
+      display: inline-block;
+      font-size: 50px;
+   }
+
+   .item:not(:first-child) > .url-item {
+      margin-left: 0;
+   }
+}
+
+@media (max-width: 321px) {
+   .header__title {
+      font-size: 80px;
+      letter-spacing: -4px;
+   }
+}

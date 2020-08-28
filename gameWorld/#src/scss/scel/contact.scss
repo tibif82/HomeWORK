@@ -1,0 +1,72 @@
+.contact {
+   color: $color-1;
+   &__wrapper {
+      font-family: "MyriadPro";
+      min-height: 684px;
+      display: flex;
+   }
+   #map {
+      width: 100%;
+   }
+   &__map {
+      max-width: 499px;
+      height: 684px;
+   }
+   // ********************************
+   &__form {
+      max-width: 698px;
+      background-color: $formColor;
+      height: 684px;
+      padding: 52px 210px 0px 76px;
+   }
+
+   &__title {
+      @include tlt;
+   }
+   &__title:first-letter {
+      @include fLeter;
+   }
+   &__title:after {
+      @include grayline;
+      width: 140px;
+      margin: -6px 0px -6px 0px;
+      margin-top: 3px;
+   }
+   // ********************************
+
+   &__block {
+   }
+   &__block-txt {
+   }
+   &__block-comm {
+   }
+   &__lock-mess {
+   }
+   .btn {
+   }
+   &__info {
+   }
+   &__tlt {
+   }
+   &__inner {
+      display: flex;
+   }
+   &__item {
+   }
+   .address {
+   }
+   .phone {
+   }
+   .mail {
+   }
+   &__pers {
+   }
+   .pers-1 {
+   }
+   .pers-2 {
+   }
+   .pers-3 {
+   }
+}
+.container {
+}

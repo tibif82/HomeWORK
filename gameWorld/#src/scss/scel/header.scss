@@ -1,6 +1,7 @@
 .header {
    max-width: 100%;
-   max-height: 1118px;
+   max-height: 1130px;
+   // height: 100vh;
    background-image: url(../img/header/bg-1.jpg);
    background-repeat: no-repeat;
    background-size: cover;
@@ -12,46 +13,17 @@
       max-width: 666px;
       height: auto;
       padding: 114px 10px 64px 40px;
-
-      @media (max-width: 375px) {
-         padding-bottom: 65px;
-      }
-
-      @media (max-width: 320px) {
-         padding-top: 3rem;
-      }
    }
 
    &__title {
       font-size: 202px;
-      letter-spacing: -10.1px;
+      letter-spacing: -6.1px;
       font-weight: bold;
-
-      @media (min-width: 576px) and (max-width: 767px) {
-         font-size: 10rem;
-         margin-bottom: 20px;
-      }
-
-      @media (min-width: 515px) and(max-width: 575px) {
-         margin-bottom: 20px;
-         font-size: 9rem;
-      }
-
-      @media (min-width: 320px) and(max-width: 514px) {
-         margin-bottom: 40px;
-         letter-spacing: 0.5px;
-         font-size: 5rem;
-      }
    }
 
    &__info {
       max-width: 390px;
       padding-bottom: 30px;
-
-      @media (min-width: 576px) and(max-width: 1200px) {
-         max-width: 800px;
-         font-size: 25px;
-      }
    }
 
    &__title:first-letter,
@@ -63,18 +35,10 @@
    &__download {
       font-size: 18px;
       text-align: left;
-
-      @media (max-width: 1024px) {
-         padding-bottom: 32px;
-      }
    }
 
    &__download a {
       color: $color-4;
-
-      @media (max-width: 1024px) {
-         font-size: 1.5rem;
-      }
    }
 
    &__wrapp {
@@ -82,10 +46,8 @@
       height: auto;
       background-image: url(../img/header/bg-2.jpg);
       background-repeat: no-repeat;
-
-      @media (max-width: 375px) {
-         background-size: cover;
-      }
+      background-size: cover;
+      background-position: center;
    }
 
    &__wrapp-cont {
@@ -115,20 +77,11 @@
 .menu {
    .list {
       display: flex;
-
-      @media (min-width: 320px) and (max-width: 515px) {
-         display: inline-block;
-         font-size: 45px;
-      }
    }
 }
 
 .item:not(:first-child) > .url-item {
    margin-left: 30px;
-
-   @media (min-width: 320px) and (max-width: 515px) {
-      margin-left: 0;
-   }
 }
 
 .url-item {
@@ -138,12 +91,5 @@
    &:hover {
       color: $color-1;
       box-shadow: 0px 1px 0px 0px #ffc600;
-   }
-
-   @media (max-width: 1024px) {
-      font-size: 1.8rem;
-   }
-   @media (min-width: 376px) and (max-width: 514px) {
-      font-size: 27px;
    }
 }

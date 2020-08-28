@@ -3,6 +3,13 @@
    background-color: $color-1;
    padding: 0px 0 115px 0;
 
+   @media (max-width: 415px) {
+      padding: 0 0 25px 0;
+   }
+   @media (max-width: 376px) {
+      padding: 0 0 25px 0;
+   }
+
    &__wrapp {
       display: flex;
       @media (max-width: 1025px) {
@@ -23,6 +30,9 @@
          text-align: center;
          font-size: 60px;
       }
+      @media (max-width: 376px) {
+         margin-bottom: 20px;
+      }
    }
    &__title:first-letter {
       @include fLeter;
@@ -34,11 +44,19 @@
       margin-top: 5px;
       @media (max-width: 1025px) {
          width: 120px;
-         margin: -6px 0px -6px 470px;
+         margin: -6px 0px -6px 326px;
          margin-top: 5px;
       }
       @media (max-width: 769px) {
          margin: -6px 0px -6px 335px;
+         margin-top: 5px;
+      }
+      @media (max-width: 376px) {
+         margin: -6px 0 -6px 131px;
+         margin-top: 5px;
+      }
+      @media (max-width: 415px) {
+         margin: -6px 0 -6px 135px;
          margin-top: 5px;
       }
    }
@@ -81,11 +99,30 @@
       @media (max-width: 1025px) {
          justify-content: center;
       }
+      @media (max-width: 376px) {
+         display: inline-block;
+      }
+      @media (max-width: 415px) {
+         display: inline-block;
+      }
    }
+
    &__box {
+      @media (max-width: 376px) {
+         display: inherit;
+      }
+      @media (max-width: 415px) {
+         display: inherit;
+      }
    }
    &__box:nth-child(2) {
       padding: 0 110px 0 82px;
+      @media (max-width: 376px) {
+         padding: 0;
+      }
+      @media (max-width: 414px) {
+         padding: 0;
+      }
    }
 
    &__img {
@@ -106,6 +143,38 @@
       width: 186px;
       font-size: 12px;
       font-style: italic;
+      @media (max-width: 376px) {
+         margin-bottom: 20px;
+      }
+      @media (max-width: 415px) {
+         margin-bottom: 20px;
+      }
+   }
+   // *****menu-burger*****
+   &__btn-menu {
+      display: none;
+      font-size: 30px;
+      cursor: pointer;
+      @media (max-width: 1024px) {
+         display: block;
+         padding-bottom: 25px;
+      }
+
+      @media (max-width: 376px) {
+         display: block;
+      }
+      @media (max-width: 414px) {
+         display: block;
+      }
+   }
+
+   &__nav &__list {
+      @media (max-width: 376px) {
+         display: none;
+      }
+      @media (max-width: 414px) {
+         display: none;
+      }
    }
 }
 .container {
