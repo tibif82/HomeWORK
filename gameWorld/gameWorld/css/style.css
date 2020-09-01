@@ -1097,6 +1097,7 @@ h6 {
   width: 412px;
   height: 76px;
   padding-top: 11px;
+  resize: none;
 }
 
 .contact .btn {
@@ -1117,12 +1118,103 @@ h6 {
   font-size: 16px;
   font-weight: 600;
   text-align: left;
+  margin-bottom: 36px;
 }
 
 .contact .contact__inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.contact .contact__item {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  margin-right: 24px;
+}
+
+.contact .address {
+  margin-bottom: 28px;
+}
+
+.contact .phone {
+  margin-bottom: 18px;
+}
+
+.contact .contact__pers {
+  font-size: 12px;
+  text-align: left;
+  margin-bottom: 68px;
+}
+
+.contact .pers-1 {
+  margin-top: 3px;
+}
+
+.contact .pers-2 {
+  margin-top: 32px;
+}
+
+.contact .pers-3 {
+  margin-top: 22px;
+}
+
+.contact__social:before {
+  display: block;
+  content: "";
+  color: #c5c5c5;
+  width: 123px;
+  height: 1px;
+  border: 1px solid;
+  width: 412px;
+}
+
+.contact__social-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 8px;
+  padding-left: 22px;
+}
+
+.contact__twitter,
+.contact__linkedin,
+.contact__facebook {
+  width: 19px;
+  height: 19px;
+  background-color: #fff;
+  margin-right: 5px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact__twitter:before,
+.contact__linkedin:before,
+.contact__facebook:before {
+  font-family: "icomoon";
+  color: #fff;
+  color: #2046b3;
+}
+
+.contact__twitter:before {
+  content: "\f099";
+}
+
+.contact__linkedin:before {
+  content: "\f08c";
+}
+
+.contact__facebook:before {
+  content: "\f09a";
 }
 
 @media (max-width: 1200px) {

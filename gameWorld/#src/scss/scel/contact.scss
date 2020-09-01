@@ -82,6 +82,7 @@
       width: 412px;
       height: 76px;
       padding-top: 11px;
+      resize: none;
    }
    // *****************************
 
@@ -102,24 +103,70 @@
       font-size: 16px;
       font-weight: 600;
       text-align: left;
+      margin-bottom: 36px;
    }
    .contact__inner {
       display: flex;
    }
    .contact__item {
+      font-size: 16px;
+      font-weight: 600;
+      text-align: left;
+      margin-right: 24px;
    }
    .address {
+      margin-bottom: 28px;
    }
    .phone {
+      margin-bottom: 18px;
    }
    .mail {
    }
    .contact__pers {
+      font-size: 12px;
+      text-align: left;
+      margin-bottom: 68px;
    }
    .pers-1 {
+      margin-top: 3px;
    }
    .pers-2 {
+      margin-top: 32px;
    }
    .pers-3 {
+      margin-top: 22px;
+   }
+
+   &__social:before {
+      @include grayline;
+      width: 412px;
+   }
+   &__social-block {
+      display: flex;
+      padding-top: 8px;
+      padding-left: 22px;
+   }
+
+   &__twitter,
+   &__linkedin,
+   &__facebook {
+      @include social;
+   }
+
+   &__twitter:before,
+   &__linkedin:before,
+   &__facebook:before {
+      font-family: "icomoon";
+      color: $color-1;
+      color: $formColor;
+   }
+   &__twitter:before {
+      content: "\f099";
+   }
+   &__linkedin:before {
+      content: "\f08c";
+   }
+   &__facebook:before {
+      content: "\f09a";
    }
 }

@@ -30,3 +30,14 @@
 @mixin fLeter {
    color: $color-4;
 }
+
+@mixin social {
+   width: 19px;
+   height: 19px;
+   background-color: $color-1;
+   margin-right: 5px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
