@@ -34,24 +34,79 @@
    }
    // ********************************
 
-   &__block {
+   &__block-text {
+      padding-bottom: 18px;
    }
-   &__block-txt {
+   #name,
+   #mobail,
+   #email,
+   #area {
+      font-size: 16px;
+      background-color: $formColor;
+      border: 2px solid $color-10;
+      font-weight: 600;
+      color: $color-1;
+      padding-left: 15px;
    }
+   #name,
+   #mobail,
+   #email {
+      height: 35px;
+   }
+
+   #name {
+      width: 412px;
+   }
+
+   input::placeholder,
+   textarea::placeholder {
+      color: $color-1;
+   }
+
+   // ****************************
    &__block-comm {
-   }
-   &__lock-mess {
-   }
-   .btn {
-   }
-   &__info {
-   }
-   &__tlt {
-   }
-   &__inner {
+      padding-bottom: 12px;
+      max-width: 412px;
       display: flex;
    }
-   &__item {
+   #mobail {
+      margin-right: 26px;
+   }
+
+   // *****************************
+
+   &__lock-mess {
+      padding-bottom: 22px;
+   }
+   #area {
+      width: 412px;
+      height: 76px;
+      padding-top: 11px;
+   }
+   // *****************************
+
+   .btn {
+      background-color: $color-4;
+      color: $color-2;
+      padding: 11px 31px 10px 31px;
+      font-size: 16px;
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 62px;
+   }
+
+   .contact__info {
+      padding-left: 22px;
+   }
+   .contact__tlt {
+      font-size: 16px;
+      font-weight: 600;
+      text-align: left;
+   }
+   .contact__inner {
+      display: flex;
+   }
+   .contact__item {
    }
    .address {
    }
@@ -59,7 +114,7 @@
    }
    .mail {
    }
-   &__pers {
+   .contact__pers {
    }
    .pers-1 {
    }
@@ -67,6 +122,4 @@
    }
    .pers-3 {
    }
-}
-.container {
 }
