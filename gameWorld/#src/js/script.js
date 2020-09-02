@@ -11,6 +11,7 @@ function initMap() {
 
    });
 
+
    var styles = [
       {
          "stylers": [
@@ -401,6 +402,13 @@ function initMap() {
    ];
 
    map.setOptions({ styles: styles });
+
+
+   var marker = new google.maps.Marker({
+      position: { lat: 45.494896, lng: -73.561081 },
+      map: map,
+      icon: '../img/contact/marker.png'
+   })
 
 }
 
