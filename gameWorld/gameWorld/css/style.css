@@ -1218,10 +1218,120 @@ h6 {
   content: "\f09a";
 }
 
-@media (min-width: 1200px) {
-  .contact__wrapper {
-    padding: 0 10px 0 10px;
-  }
+.layet {
+  color: #fff;
+  font-family: "MyriadPro";
+}
+
+.layet__wrapp {
+  background-image: url(../img/layet/bg-layet.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.layet__inner {
+  max-width: 321px;
+  padding: 122px 97px 45px 26px;
+}
+
+.layet__title {
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: -3px;
+  text-align: center;
+  padding-bottom: 57px;
+}
+
+.layet__title:first-letter {
+  color: #ffc600;
+}
+
+.layet__nav {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 2.25;
+  text-transform: uppercase;
+  color: #fff;
+  display: inline-block;
+}
+
+.layet__list {
+  margin-bottom: 45px;
+}
+
+.layet__item {
+  color: #fff;
+}
+
+.layet__item:hover {
+  color: #ffc600;
+}
+
+.layet__social:before {
+  display: block;
+  content: "";
+  color: #c5c5c5;
+  width: 123px;
+  height: 1px;
+  border: 1px solid;
+  width: 115px;
+  color: #ffc600;
+}
+
+.layet__social-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 8px;
+}
+
+.layet__twitter,
+.layet__linkedin,
+.layet__facebook {
+  width: 19px;
+  height: 19px;
+  background-color: #fff;
+  margin-right: 5px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.layet__twitter:hover,
+.layet__linkedin:hover,
+.layet__facebook:hover {
+  background-color: #2046b3;
+}
+
+.layet__twitter:before,
+.layet__linkedin:before,
+.layet__facebook:before {
+  font-family: "icomoon";
+  color: #fff;
+  color: #000;
+}
+
+.layet__twitter:before {
+  content: "\f099";
+}
+
+.layet__linkedin:before {
+  content: "\f08c";
+}
+
+.layet__facebook:before {
+  content: "\f09a";
 }
 
 @media (max-width: 1200px) {
@@ -2226,3 +2336,5 @@ h6 {
 .webp .header__wrapp { background-image: url(../img/header/bg-2.webp); }
 
 .webp .series { background-image: url(../../img/series/bg.webp); }
+
+.webp .layet__wrapp { background-image: url(../img/layet/bg-layet.webp); }

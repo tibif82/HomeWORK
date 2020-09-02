@@ -1,0 +1,81 @@
+.layet {
+   color: $color-1;
+   font-family: "MyriadPro";
+   &__wrapp {
+      background-image: url(../img/layet/bg-layet.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+   }
+   &__inner {
+      max-width: 321px;
+      padding: 122px 97px 45px 26px;
+   }
+   &__title {
+      font-size: 60px;
+      font-weight: bold;
+      letter-spacing: -3px;
+      text-align: center;
+      padding-bottom: 57px;
+   }
+   &__title:first-letter {
+      @include fLeter;
+   }
+
+   // **** Navigation ****
+   &__nav {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 2.25;
+      text-transform: uppercase;
+      color: $color-1;
+      display: inline-block;
+   }
+   &__list {
+      margin-bottom: 45px;
+   }
+   &__item {
+      color: $color-1;
+   }
+   &__item:hover {
+      color: $color-4;
+   }
+   // *********************
+   &__social:before {
+      @include grayline;
+      width: 115px;
+      color: $color-4;
+   }
+   &__social-block {
+      display: flex;
+      padding-top: 8px;
+   }
+   &__twitter,
+   &__linkedin,
+   &__facebook {
+      @include social;
+   }
+   &__twitter:hover,
+   &__linkedin:hover,
+   &__facebook:hover {
+      background-color: $formColor;
+   }
+
+   &__twitter:before,
+   &__linkedin:before,
+   &__facebook:before {
+      font-family: "icomoon";
+      color: $color-1;
+      color: $color-2;
+   }
+   &__twitter:before {
+      content: "\f099";
+   }
+   &__linkedin:before {
+      content: "\f08c";
+   }
+   &__facebook:before {
+      content: "\f09a";
+   }
+}
