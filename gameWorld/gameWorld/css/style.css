@@ -1198,6 +1198,12 @@ h6 {
           align-items: center;
 }
 
+.contact__twitter:hover,
+.contact__linkedin:hover,
+.contact__facebook:hover {
+  background-color: #ffa800;
+}
+
 .contact__twitter:before,
 .contact__linkedin:before,
 .contact__facebook:before {

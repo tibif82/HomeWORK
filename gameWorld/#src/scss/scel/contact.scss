@@ -154,6 +154,12 @@
       @include social;
    }
 
+   &__twitter:hover,
+   &__linkedin:hover,
+   &__facebook:hover {
+      background-color: $color-5;
+   }
+
    &__twitter:before,
    &__linkedin:before,
    &__facebook:before {
