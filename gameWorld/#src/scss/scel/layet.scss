@@ -1,11 +1,11 @@
 .layet {
-   background-image: url(../img/layet/bg-layet.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
    color: $color-1;
    font-family: "MyriadPro";
    &__wrapp {
+      background-image: url(../img/layet/bg-layet.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
       display: flex;
    }
    &__inner {

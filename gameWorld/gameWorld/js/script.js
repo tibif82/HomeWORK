@@ -412,9 +412,9 @@ function initMap() {
 }
 
 const anchors = document.querySelectorAll('a[href*="#"]')
-
+console.log(anchors);
 for (let anchor of anchors) {
-   anchors.addEventListener("click", function (event) {
+   anchor.addEventListener("click", function (event) {
       event.preventDefault();
       const blockID = anchor.getAttribute('href')
       document.querySelector('' + blockID).scrollIntoView({
