@@ -56,17 +56,17 @@
    &__facebook {
       @include social;
    }
+
    &__twitter:hover,
    &__linkedin:hover,
    &__facebook:hover {
-      background-color: $formColor;
+      background-color: $color-5;
    }
 
    &__twitter:before,
    &__linkedin:before,
    &__facebook:before {
       font-family: "icomoon";
-      color: $color-1;
       color: $color-2;
    }
    &__twitter:before {
@@ -77,5 +77,21 @@
    }
    &__facebook:before {
       content: "\f09a";
+   }
+
+   // **** Subtitle ****
+
+   .layet__section {
+      padding: 345px 84px 144px 25px;
+   }
+   &__subtitle {
+      font-size: 111px;
+      font-weight: bold;
+      line-height: 0.8;
+      letter-spacing: -5.55px;
+      text-align: left;
+   }
+   &__subtitle-yellow {
+      color: $color-4;
    }
 }
