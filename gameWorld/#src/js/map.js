@@ -1,7 +1,3 @@
-
-$('.blog__btn-menu').on('click', function () {
-   $('.blog__nav .blog__list').slideToggle();
-});;
 function initMap() {
    map = new google.maps.Map(document.getElementById('map'), {
       center: { lat: 45.494896, lng: -73.561081 },
@@ -409,17 +405,4 @@ function initMap() {
       map: map,
       icon: '../img/contact/marker.png'
    })
-};
-const anchors = document.querySelectorAll('a[href*="#"]')
-console.log(anchors);
-for (let anchor of anchors) {
-   anchor.addEventListener("click", function (event) {
-      event.preventDefault();
-      const blockID = anchor.getAttribute('href')
-      document.querySelector('' + blockID).scrollIntoView({
-         behavior: "smooth",
-         block: "start"
-      });
-   });
-};;
-
+}
