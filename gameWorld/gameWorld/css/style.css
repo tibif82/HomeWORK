@@ -664,10 +664,6 @@ h6 {
 }
 
 .series {
-  background-image: url(../../img/series/bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   color: #fff;
   font-family: "MyriadPro";
 }
@@ -677,6 +673,10 @@ h6 {
 }
 
 .series__wrapper {
+  background-image: url(../../img/series/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   padding: 55px 150px 58px 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -817,13 +817,14 @@ h6 {
   font-family: "MyriadPro";
   color: #fff;
   padding: 55px 0 136px 0;
-  background-color: #000;
 }
 
 .testimonials__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: #000;
+  padding: 55px 275px 136px 49px;
 }
 
 .testimonials__title {
@@ -1360,18 +1361,9 @@ h6 {
     padding: 0 116px 0 81px;
     margin-bottom: 20px;
   }
-
-  .series__wrapper {
-    display: inline-block;
-    padding: 55px;
-  }
 }
 
 @media (max-width: 1025px) {
-  .series__info {
-    margin-top: 17px;
-  }
-
   .team__wrapper {
     display: inline-block;
   }
@@ -1460,9 +1452,13 @@ h6 {
 }
 
 @media (max-width: 769px) {
+  .strategy {
+    padding-bottom: 30px;
+  }
+
   .team {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
   }
 
   .team__title {
@@ -1471,7 +1467,7 @@ h6 {
   }
 
   .team__description {
-    text-align: center;
+    text-align: left;
     max-width: 100%;
   }
 
@@ -1488,8 +1484,12 @@ h6 {
     margin-right: 0;
   }
 
+  .team__foto-2 {
+    margin-bottom: 20px;
+  }
+
   .testimonials__wrapper {
-    padding: 0 85px 0 20px;
+    padding: 40px 85px 40px 20px;
   }
 
   .testimonials__title {
@@ -1562,16 +1562,6 @@ h6 {
         -ms-flex-pack: center;
             justify-content: center;
   }
-
-  .series__title {
-    margin-right: 0;
-    text-align: center;
-  }
-
-  .series__title:after {
-    margin: -6px 0px -6px 125px;
-    margin-top: 3px;
-  }
 }
 
 @media (max-width: 449px) {
@@ -1598,6 +1588,39 @@ h6 {
 }
 
 @media (max-width: 415px) {
+  .series__wrapper {
+    display: inline-block;
+    padding: 55px 0px 58px 22px;
+  }
+
+  .series__title {
+    padding-bottom: 0px;
+    font-size: 29px;
+  }
+
+  .series__info {
+    margin-top: 45px;
+  }
+
+  .series__block {
+    max-width: 380px;
+  }
+
+  .series__block:first-child {
+    padding-bottom: 20px;
+    margin-right: 65px;
+  }
+
+  .series__block:nth-child(2),
+  .series__block:nth-child(3) {
+    margin-bottom: 20px;
+    margin-right: 65px;
+  }
+
+  .series__text {
+    font-size: 13px;
+  }
+
   .contact__wrapper {
     display: inline-block;
     padding: 0 10px 0 10px;
@@ -1637,35 +1660,6 @@ h6 {
     width: 375px;
   }
 
-  .series__title:after {
-    margin: -6px 0 -6px 143px;
-    margin-top: 3px;
-  }
-
-  .series__block {
-    max-width: 385px;
-  }
-
-  .series__block:first-child {
-    padding-bottom: 20px;
-  }
-
-  .series__block:first-child,
-  .series__block:nth-child(3) {
-    max-width: 385px;
-    margin-bottom: 20px;
-    margin-right: 0;
-  }
-
-  .series__block:nth-child(2) {
-    margin-right: 0;
-    padding-bottom: 20px;
-  }
-
-  .series__subtitle {
-    font-size: 20px;
-  }
-
   .team__foto-1,
   .team__foto-2 {
     margin-right: 0px;
@@ -1681,11 +1675,6 @@ h6 {
   }
 
   .testimonials {
-    padding: 55px 0 55px 0;
-  }
-
-  .testimonials__wrapper {
-    display: inline-block;
     padding: 0;
   }
 
@@ -1805,8 +1794,15 @@ h6 {
     margin-left: 43px;
   }
 
-  .series__text {
-    font-size: 13px;
+  .team__description {
+    text-align: left;
+    max-width: 100%;
+  }
+
+  .testimonials__wrapper {
+    display: inline-block;
+    padding: 0;
+    padding: 35px 0 35px 0;
   }
 }
 
@@ -1818,6 +1814,33 @@ h6 {
 
   .item:not(:first-child) > .url-item {
     margin-left: 0;
+  }
+
+  .series__wrapper {
+    display: inline-block;
+    padding: 55px 0px 58px 22px;
+  }
+
+  .series__title {
+    padding-bottom: 0px;
+    font-size: 29px;
+  }
+
+  .series__info {
+    margin-top: 45px;
+  }
+
+  .series__block {
+    max-width: 317px;
+  }
+
+  .series__block:first-child {
+    padding-bottom: 20px;
+  }
+
+  .series__block:nth-child(2),
+  .series__block:nth-child(3) {
+    margin-bottom: 20px;
   }
 
   .blog {
@@ -1851,6 +1874,10 @@ h6 {
   .blog__inner {
     display: inline-block;
     margin-left: 84px;
+  }
+
+  .blog__nav {
+    margin-top: 10px;
   }
 
   .blog__btn-menu {
@@ -1965,42 +1992,14 @@ h6 {
     display: none;
   }
 
-  .series__title:after {
-    margin: -6px 0 -6px 159px;
-    margin-top: 3px;
+  .team {
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 
-  .series__info {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-
-  .series__block {
-    max-width: 309px;
-  }
-
-  .series__block:first-child {
-    padding-bottom: 20px;
-  }
-
-  .series__block:first-child,
-  .series__block:nth-child(3) {
-    margin-right: 0;
-    padding-bottom: 20px;
-  }
-
-  .series__block:nth-child(2) {
-    margin-right: 0;
-    padding-bottom: 20px;
-  }
-
-  .series__subtitle {
-    font-size: 20px;
-  }
-
-  .series__text {
-    font-size: 13px;
+  .team__description {
+    text-align: left;
+    max-width: 100%;
   }
 
   .team__foto-1,
@@ -2012,12 +2011,13 @@ h6 {
   }
 
   .testimonials {
-    padding: 55px 0 55px 0;
+    padding: 0;
   }
 
   .testimonials__wrapper {
     display: inline-block;
     padding: 0;
+    padding: 29px 0 29px 0;
   }
 
   .testimonials__title {
@@ -2054,17 +2054,27 @@ h6 {
   }
 }
 
-@media (max-width: 326px) {
-  .series__title:after {
-    margin: -6px 0 -6px 107px;
-    margin-top: 3px;
-  }
-}
-
 @media (max-width: 321px) {
   .header__title {
     font-size: 80px;
     letter-spacing: -4px;
+  }
+
+  .series__wrapper {
+    max-width: 320px;
+  }
+
+  .series__title {
+    padding-bottom: 0px;
+    font-size: 29px;
+    margin-right: 0;
+  }
+
+  .series__block:first-child,
+  .series__block:nth-child(2),
+  .series__block:nth-child(3),
+  .series__block:last-child {
+    margin-right: 15px;
   }
 
   .blog__title {
@@ -2152,9 +2162,17 @@ h6 {
     font-size: 65px;
   }
 
-  .series__title:after {
-    margin: -6px 0 -6px 132px;
-    margin-top: 3px;
+  .team__description {
+    text-align: left;
+    max-width: 100%;
+  }
+
+  .testimonials {
+    padding: 0;
+  }
+
+  .testimonials__wrapper {
+    padding: 35px 0 35px 0;
   }
 
   .testimonials__descriptions {
@@ -2182,6 +2200,16 @@ h6 {
     margin-bottom: 20px;
   }
 
+  .series__wrapper {
+    padding: 55px 110px 58px 110px;
+    display: inline-block;
+  }
+
+  .series__title {
+    padding-bottom: 0px;
+    font-size: 29px;
+  }
+
   .blog__wrapp {
     display: inline-block;
     padding-left: 12px;
@@ -2189,8 +2217,8 @@ h6 {
 
   .blog__title {
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .blog__title:after {
@@ -2215,6 +2243,7 @@ h6 {
   .blog__btn-menu {
     display: block;
     text-align: center;
+    margin-bottom: 25px;
   }
 
   .blog__nav {
@@ -2298,6 +2327,18 @@ h6 {
     margin-bottom: 20px;
   }
 
+  .series__wrapper {
+    padding: 40px 20px 40px 40px;
+  }
+
+  .series__title {
+    margin-right: 150px;
+  }
+
+  .series__info {
+    margin-top: 60px;
+  }
+
   .blog__wrapp {
     display: inline-block;
     padding-left: 20px;
@@ -2305,6 +2346,8 @@ h6 {
 
   .blog__title {
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .blog__title:after {
@@ -2417,7 +2460,7 @@ h6 {
 @media (min-width: 320px) and (max-width: 575px) {
   .about__upper {
     display: inline-block;
-    padding: 36px 30px 40px 30px;
+    padding: 36px 25px 40px 25px;
   }
 
   .about__txt {
@@ -2468,16 +2511,10 @@ h6 {
   }
 }
 
-@media (min-width: 319px) and (max-width: 415px) {
-  .series__wrapper {
-    padding: 26px;
-  }
-}
-
 .webp .header { background-image: url(../img/header/bg-1.webp); }
 
 .webp .header__wrapp { background-image: url(../img/header/bg-2.webp); }
 
-.webp .series { background-image: url(../../img/series/bg.webp); }
+.webp .series__wrapper { background-image: url(../../img/series/bg.webp); }
 
 .webp .layet__wrapp { background-image: url(../img/layet/bg-layet.webp); }

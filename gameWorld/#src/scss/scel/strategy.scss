@@ -1,6 +1,9 @@
 .strategy {
    background-color: $color-1;
    font-family: "MyriadPro";
+   @media (max-width: 769px) {
+      padding-bottom: 30px;
+   }
 
    &__upper {
       padding: 0 15px 0 15px;

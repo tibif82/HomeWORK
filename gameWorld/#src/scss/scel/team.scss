@@ -6,7 +6,11 @@
 
    @media (max-width: 769px) {
       padding-top: 50px;
-      padding-bottom: 50px;
+      padding-bottom: 0px;
+   }
+   @media (max-width: 376px) {
+      padding-top: 15px;
+      padding-bottom: 15px;
    }
 
    &__wrapper {
@@ -52,7 +56,19 @@
       padding-bottom: 35px;
 
       @media (max-width: 769px) {
-         text-align: center;
+         text-align: left;
+         max-width: 100%;
+      }
+      @media (max-width: 376px) {
+         text-align: left;
+         max-width: 100%;
+      }
+      @media (max-width: 414px) {
+         text-align: left;
+         max-width: 100%;
+      }
+      @media (max-width: 321px) {
+         text-align: left;
          max-width: 100%;
       }
    }
@@ -100,6 +116,12 @@
    &__foto-4 {
       @media (max-width: 769px) {
          margin-right: 0;
+      }
+   }
+
+   &__foto-2 {
+      @media (max-width: 769px) {
+         margin-bottom: 20px;
       }
    }
 
