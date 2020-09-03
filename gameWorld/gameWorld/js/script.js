@@ -408,8 +408,8 @@ function initMap() {
       position: { lat: 45.494896, lng: -73.561081 },
       map: map,
       icon: '../img/contact/marker.png'
-   })
-};
+   });
+};;
 const anchors = document.querySelectorAll('a[href*="#"]')
 // console.log(anchors);
 for (let anchor of anchors) {
@@ -422,4 +422,6 @@ for (let anchor of anchors) {
       });
    });
 };;
+
+
 
