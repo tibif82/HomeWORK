@@ -19,11 +19,25 @@
       font-size: 202px;
       letter-spacing: -6.1px;
       font-weight: bold;
+
+      @include anim-1;
+   }
+   &__title._active {
+      transform: translate(0px, 0px);
+      opacity: 1;
    }
 
    &__info {
       max-width: 390px;
       padding-bottom: 30px;
+
+      @include anim-1;
+   }
+
+   &__info._active {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 0.4s;
    }
 
    &__title:first-letter,
@@ -39,6 +53,15 @@
 
    &__download a {
       color: $color-4;
+   }
+   &__download {
+      @include anim-1;
+   }
+
+   &__download._active {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 0.8s;
    }
 
    &__wrapp {
@@ -62,6 +85,13 @@
       letter-spacing: -3px;
       text-align: left;
       padding-bottom: 60px;
+
+      @include anim-2;
+   }
+   &__subtitle._active {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 0.8s;
    }
 
    &__subtitle-yellow {

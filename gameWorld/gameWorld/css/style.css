@@ -275,11 +275,42 @@ h6 {
   font-size: 202px;
   letter-spacing: -6.1px;
   font-weight: bold;
+  -webkit-transform: translate(0px, 120%);
+      -ms-transform: translate(0px, 120%);
+          transform: translate(0px, 120%);
+  opacity: 0;
+  -webkit-transition: all 0.8s ease 0s;
+  -o-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
+
+.header__title._active {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
 }
 
 .header__info {
   max-width: 390px;
   padding-bottom: 30px;
+  -webkit-transform: translate(0px, 120%);
+      -ms-transform: translate(0px, 120%);
+          transform: translate(0px, 120%);
+  opacity: 0;
+  -webkit-transition: all 0.8s ease 0s;
+  -o-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
+
+.header__info._active {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 0.8s ease 0.4s;
+  -o-transition: all 0.8s ease 0.4s;
+  transition: all 0.8s ease 0.4s;
 }
 
 .header__title:first-letter,
@@ -295,6 +326,26 @@ h6 {
 
 .header__download a {
   color: #ffc600;
+}
+
+.header__download {
+  -webkit-transform: translate(0px, 120%);
+      -ms-transform: translate(0px, 120%);
+          transform: translate(0px, 120%);
+  opacity: 0;
+  -webkit-transition: all 0.8s ease 0s;
+  -o-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
+
+.header__download._active {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 0.8s ease 0.8s;
+  -o-transition: all 0.8s ease 0.8s;
+  transition: all 0.8s ease 0.8s;
 }
 
 .header__wrapp {
@@ -318,6 +369,23 @@ h6 {
   letter-spacing: -3px;
   text-align: left;
   padding-bottom: 60px;
+  -webkit-transform: translate(120%, 0px);
+      -ms-transform: translate(120%, 0px);
+          transform: translate(120%, 0px);
+  opacity: 0;
+  -webkit-transition: all 0.8s ease 0s;
+  -o-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
+
+.header__subtitle._active {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 0.8s ease 0.8s;
+  -o-transition: all 0.8s ease 0.8s;
+  transition: all 0.8s ease 0.8s;
 }
 
 .header__subtitle-yellow {
