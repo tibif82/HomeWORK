@@ -4,7 +4,9 @@
    @media (max-width: 769px) {
       padding-bottom: 30px;
    }
-
+   .container {
+      overflow-x: hidden;
+   }
    &__upper {
       padding: 0 15px 0 15px;
       max-width: 1055px;
@@ -31,6 +33,12 @@
 
    &__title {
       @include tlt;
+      @include animPositive-X;
+   }
+   &__title._active {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 0.3s;
    }
 
    &__title:after {
@@ -50,6 +58,20 @@
    }
    &__subtitle {
       @include pendent;
+      @include animPositive-X;
+   }
+   &__subtitle._active {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 0.7s;
+   }
+   &__subtitle-all {
+      @include animPositive-X;
+   }
+   &__subtitle-all._active {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 1s;
    }
 
    // ***********************
@@ -84,12 +106,37 @@
    }
 
    &__block-txt {
+      z-index: 100;
       @media (max-width: 895px) {
          position: absolute;
-         left: 50%;
-         transform: translateX(-50%);
       }
    }
+
+   // &__block-txt:nth-child(1) {
+   //    @include animPositive-X;
+   // }
+   // &__block-txt:nth-child(1) {
+   //    transform: translate(0px, 0px);
+   //    opacity: 1;
+   //    transition: all 0.8s ease 0.2s;
+   // }
+   // &__block-txt:nth-child(2) {
+   //    @include animPositive-X;
+   // }
+   // &__block-txt:nth-child(2) {
+   //    transform: translate(0px, 0px);
+   //    opacity: 1;
+   //    transition: all 0.8s ease 0.4s;
+   // }
+   // &__block-txt:nth-child(3) {
+   //    @include animPositive-X;
+   // }
+   // &__block-txt:nth-child(3) {
+   //    transform: translate(0px, 0px);
+   //    opacity: 1;
+   //    transition: all 0.8s ease 0.6s;
+   // }
+
    &__block-img {
       @media (max-width: 895px) {
          padding: 15px 0 15px 0;
@@ -107,6 +154,31 @@
       @media (max-width: 895px) {
          max-width: 600px;
       }
+   }
+
+   &__block-img:nth-child(1) {
+      @include animNegative-X;
+   }
+   &__block-img:nth-child(1)._active {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 0.2s;
+   }
+   &__block-img:nth-child(2) {
+      @include animPositive-X;
+   }
+   &__block-img:nth-child(2)._active {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 0.3s;
+   }
+   &__block-img:nth-child(3) {
+      @include animNegative-X;
+   }
+   &__block-img:nth-child(3)._active {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 0.4s;
    }
 
    &__inner-1,

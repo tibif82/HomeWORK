@@ -43,9 +43,23 @@
 }
 
 // **** animation *****
-
-@mixin anim {
-   transform: translate(0px, 120%);
+@mixin animPositive-X {
+   transform: translateX(50%);
+   opacity: 0;
+   transition: all 0.8s ease 0s;
+}
+@mixin animPositive-Y {
+   transform: translateY(50%);
+   opacity: 0;
+   transition: all 0.8s ease 0s;
+}
+@mixin animNegative-X {
+   transform: translateX(-50%);
+   opacity: 0;
+   transition: all 0.8s ease 0s;
+}
+@mixin animNegative-Y {
+   transform: translateY(-50%);
    opacity: 0;
    transition: all 0.8s ease 0s;
 }

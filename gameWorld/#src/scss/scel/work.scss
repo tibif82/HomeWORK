@@ -5,6 +5,7 @@
 
    &__top {
       margin-left: 81px;
+      @include animPositive-Y;
 
       @media (max-width: 1024px) {
          margin-left: 62px;
@@ -29,6 +30,11 @@
          margin-left: 13px;
          justify-content: center;
       }
+   }
+   &__top._active {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 0.1s;
    }
    &__title {
       font-size: 30px;
@@ -107,5 +113,10 @@
       @media (max-width: 575px) {
          justify-content: center;
       }
+   }
+   &__img:hover {
+      cursor: pointer;
+      transform: scale(1.3);
+      transition: all 0.8s;
    }
 }

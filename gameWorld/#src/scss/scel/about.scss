@@ -28,6 +28,8 @@
    }
 
    &__title {
+      @include animPositive-Y;
+
       @media (min-width: 992px) and (max-width: 1199px) {
          padding-bottom: 30px;
       }
@@ -40,6 +42,11 @@
       @media (max-width: 575px) {
          padding-bottom: 20px;
       }
+   }
+   &__title._active {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 0.1s;
    }
 
    &__title span {
@@ -66,6 +73,13 @@
    &__br {
       display: flex;
       align-items: center;
+
+      @include animPositive-Y;
+   }
+   &__br._active {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 0.2s;
    }
 
    &__line {
@@ -135,6 +149,7 @@
    &__game,
    &__cont {
       text-align: center;
+      @include animPositive-Y;
 
       @media (min-width: 576px) and (max-width: 767px) {
          margin-bottom: 20px;
@@ -142,6 +157,21 @@
       @media (max-width: 575px) {
          margin-bottom: 20px;
       }
+   }
+   &__app._active {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 0.3s;
+   }
+   &__game._active {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 0.4s;
+   }
+   &__cont._active {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 0.5s;
    }
 
    &__ico {

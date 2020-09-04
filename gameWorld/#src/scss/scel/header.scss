@@ -20,7 +20,7 @@
       letter-spacing: -6.1px;
       font-weight: bold;
 
-      @include anim;
+      @include animPositive-Y;
    }
    &__title._active {
       transform: translate(0px, 0px);
@@ -31,7 +31,7 @@
       max-width: 390px;
       padding-bottom: 30px;
 
-      @include anim;
+      @include animPositive-Y;
    }
 
    &__info._active {
@@ -55,7 +55,7 @@
       color: $color-4;
    }
    &__download {
-      @include anim;
+      @include animPositive-Y;
    }
 
    &__download._active {
@@ -86,7 +86,7 @@
       text-align: left;
       padding-bottom: 60px;
 
-      @include anim;
+      @include animPositive-Y;
    }
    &__subtitle._active {
       transform: translate(0px, 0px);
@@ -100,12 +100,12 @@
 }
 .list {
    display: flex;
-   @include anim;
+   @include animPositive-Y;
 }
 .list._active {
    transform: translate(0px, 0px);
    opacity: 1;
-   transition: all 0.8s ease 0.8s;
+   transition: all 0.8s ease 1.4s;
 }
 .container {
    max-width: 1198px;
