@@ -20,7 +20,7 @@
       letter-spacing: -6.1px;
       font-weight: bold;
 
-      @include anim-1;
+      @include anim;
    }
    &__title._active {
       transform: translate(0px, 0px);
@@ -31,7 +31,7 @@
       max-width: 390px;
       padding-bottom: 30px;
 
-      @include anim-1;
+      @include anim;
    }
 
    &__info._active {
@@ -55,7 +55,7 @@
       color: $color-4;
    }
    &__download {
-      @include anim-1;
+      @include anim;
    }
 
    &__download._active {
@@ -86,7 +86,7 @@
       text-align: left;
       padding-bottom: 60px;
 
-      @include anim-2;
+      @include anim;
    }
    &__subtitle._active {
       transform: translate(0px, 0px);
@@ -100,7 +100,7 @@
 }
 .list {
    display: flex;
-   @include anim-1;
+   @include anim;
 }
 .list._active {
    transform: translate(0px, 0px);
