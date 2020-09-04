@@ -45,12 +45,12 @@
 // **** animation *****
 
 @mixin anim-1 {
-   transform: translate(0px, 120%);
+   transform: translate(0px, 0px);
    opacity: 0;
    transition: all 0.8s ease 0s;
 }
 @mixin anim-2 {
-   transform: translate(120%, 0px);
+   transform: translate(0px, 0px);
    opacity: 0;
    transition: all 0.8s ease 0s;
 }

@@ -98,16 +98,18 @@
       color: $color-4;
    }
 }
-
+.list {
+   display: flex;
+   @include anim-1;
+}
+.list._active {
+   transform: translate(0px, 0px);
+   opacity: 1;
+   transition: all 0.8s ease 0.8s;
+}
 .container {
    max-width: 1198px;
    margin: 0 auto;
-}
-
-.menu {
-   .list {
-      display: flex;
-   }
 }
 
 .item:not(:first-child) > .url-item {

@@ -275,9 +275,9 @@ h6 {
   font-size: 202px;
   letter-spacing: -6.1px;
   font-weight: bold;
-  -webkit-transform: translate(0px, 120%);
-      -ms-transform: translate(0px, 120%);
-          transform: translate(0px, 120%);
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
   opacity: 0;
   -webkit-transition: all 0.8s ease 0s;
   -o-transition: all 0.8s ease 0s;
@@ -294,9 +294,9 @@ h6 {
 .header__info {
   max-width: 390px;
   padding-bottom: 30px;
-  -webkit-transform: translate(0px, 120%);
-      -ms-transform: translate(0px, 120%);
-          transform: translate(0px, 120%);
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
   opacity: 0;
   -webkit-transition: all 0.8s ease 0s;
   -o-transition: all 0.8s ease 0s;
@@ -329,9 +329,9 @@ h6 {
 }
 
 .header__download {
-  -webkit-transform: translate(0px, 120%);
-      -ms-transform: translate(0px, 120%);
-          transform: translate(0px, 120%);
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
   opacity: 0;
   -webkit-transition: all 0.8s ease 0s;
   -o-transition: all 0.8s ease 0s;
@@ -369,9 +369,9 @@ h6 {
   letter-spacing: -3px;
   text-align: left;
   padding-bottom: 60px;
-  -webkit-transform: translate(120%, 0px);
-      -ms-transform: translate(120%, 0px);
-          transform: translate(120%, 0px);
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
   opacity: 0;
   -webkit-transition: all 0.8s ease 0s;
   -o-transition: all 0.8s ease 0s;
@@ -392,15 +392,32 @@ h6 {
   color: #ffc600;
 }
 
-.container {
-  max-width: 1198px;
-  margin: 0 auto;
-}
-
-.menu .list {
+.list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 0;
+  -webkit-transition: all 0.8s ease 0s;
+  -o-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
+
+.list._active {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 0.8s ease 0.8s;
+  -o-transition: all 0.8s ease 0.8s;
+  transition: all 0.8s ease 0.8s;
+}
+
+.container {
+  max-width: 1198px;
+  margin: 0 auto;
 }
 
 .item:not(:first-child) > .url-item {
@@ -1434,6 +1451,7 @@ h6 {
 @media (max-width: 1025px) {
   .team__wrapper {
     display: inline-block;
+    text-align: center;
   }
 
   .team__inner {
@@ -1535,7 +1553,7 @@ h6 {
   }
 
   .team__description {
-    text-align: left;
+    text-align: center;
     max-width: 100%;
   }
 
@@ -1664,6 +1682,7 @@ h6 {
   .series__title {
     padding-bottom: 0px;
     font-size: 29px;
+    margin-right: 0px;
   }
 
   .series__info {
@@ -1676,13 +1695,13 @@ h6 {
 
   .series__block:first-child {
     padding-bottom: 20px;
-    margin-right: 65px;
+    margin-right: 0;
   }
 
   .series__block:nth-child(2),
   .series__block:nth-child(3) {
     margin-bottom: 20px;
-    margin-right: 65px;
+    margin-right: 0;
   }
 
   .series__text {
@@ -1726,6 +1745,10 @@ h6 {
     height: 1px;
     border: 1px solid;
     width: 375px;
+  }
+
+  .team__content {
+    padding-bottom: 40px;
   }
 
   .team__foto-1,
@@ -1863,7 +1886,7 @@ h6 {
   }
 
   .team__description {
-    text-align: left;
+    text-align: center;
     max-width: 100%;
   }
 
@@ -1892,6 +1915,7 @@ h6 {
   .series__title {
     padding-bottom: 0px;
     font-size: 29px;
+    margin-right: 0px;
   }
 
   .series__info {
@@ -2066,7 +2090,7 @@ h6 {
   }
 
   .team__description {
-    text-align: left;
+    text-align: center;
     max-width: 100%;
   }
 
@@ -2135,7 +2159,7 @@ h6 {
   .series__title {
     padding-bottom: 0px;
     font-size: 29px;
-    margin-right: 0;
+    margin-right: 0px;
   }
 
   .series__block:first-child,
@@ -2276,6 +2300,7 @@ h6 {
   .series__title {
     padding-bottom: 0px;
     font-size: 29px;
+    margin-right: 0px;
   }
 
   .blog__wrapp {
