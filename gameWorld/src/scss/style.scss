@@ -9,10 +9,6 @@
 }
 @import "fonts";
 
-// body {
-
-// }
-
 @import "./vendors/resetstyle.scss";
 @import "fonts.scss";
 @import "mixins.scss";
@@ -20,12 +16,11 @@
 @import "media.scss";
 
 // ***** scel ******
-@import "scel/wrapper.scss";
 @import "scel/header.scss";
 @import "scel/about.scss";
 @import "scel/work.scss";
 @import "scel/strategy.scss";
-@import "scel/series.scss";
+@import "scel/services.scss";
 @import "scel/team.scss";
 @import "scel/testimonials.scss";
 @import "scel/blog.scss";

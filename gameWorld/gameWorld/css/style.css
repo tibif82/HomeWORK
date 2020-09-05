@@ -971,17 +971,17 @@ h6 {
   color: #595959;
 }
 
-.series {
+.services {
   color: #fff;
   font-family: "MyriadPro";
 }
 
-.series .container {
+.services .container {
   text-align: center;
 }
 
-.series__wrapper {
-  background-image: url(../../img/series/bg.jpg);
+.services__wrapper {
+  background-image: url(../../img/services/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -991,19 +991,36 @@ h6 {
   display: flex;
 }
 
-.series__title {
+.services__title {
   padding-bottom: 26px;
   font-size: 30px;
   font-weight: 600;
   text-align: left;
   margin-right: 200px;
+  -webkit-transform: translateY(50%);
+      -ms-transform: translateY(50%);
+          transform: translateY(50%);
+  opacity: 0;
+  -webkit-transition: all 0.8s ease 0s;
+  -o-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
 }
 
-.series__title:first-letter {
+.services__title._active {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 0.8s ease 0.3s;
+  -o-transition: all 0.8s ease 0.3s;
+  transition: all 0.8s ease 0.3s;
+}
+
+.services__title:first-letter {
   color: #ffc600;
 }
 
-.series__title:after {
+.services__title:after {
   display: block;
   content: "";
   color: #c5c5c5;
@@ -1014,7 +1031,7 @@ h6 {
   margin-top: 3px;
 }
 
-.series__info {
+.services__info {
   max-width: 541px;
   margin-top: 85px;
   display: -webkit-box;
@@ -1024,26 +1041,106 @@ h6 {
       flex-wrap: wrap;
 }
 
-.series__block {
+.services__block {
   max-width: 225px;
 }
 
-.series__block:first-child {
+.services__block:nth-child(1) {
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  opacity: 0;
+  -webkit-transition: all 0.8s ease 0s;
+  -o-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
+
+.services__block:nth-child(1)._active {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 0.8s ease 0.1s;
+  -o-transition: all 0.8s ease 0.1s;
+  transition: all 0.8s ease 0.1s;
+}
+
+.services__block:nth-child(2) {
+  -webkit-transform: translateX(50%);
+      -ms-transform: translateX(50%);
+          transform: translateX(50%);
+  opacity: 0;
+  -webkit-transition: all 0.8s ease 0s;
+  -o-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
+
+.services__block:nth-child(2)._active {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 0.8s ease 0.2s;
+  -o-transition: all 0.8s ease 0.2s;
+  transition: all 0.8s ease 0.2s;
+}
+
+.services__block:nth-child(3) {
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  opacity: 0;
+  -webkit-transition: all 0.8s ease 0s;
+  -o-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
+
+.services__block:nth-child(3)._active {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 0.8s ease 0.3s;
+  -o-transition: all 0.8s ease 0.3s;
+  transition: all 0.8s ease 0.3s;
+}
+
+.services__block:nth-child(4) {
+  -webkit-transform: translateX(50%);
+      -ms-transform: translateX(50%);
+          transform: translateX(50%);
+  opacity: 0;
+  -webkit-transition: all 0.8s ease 0s;
+  -o-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
+
+.services__block:nth-child(4)._active {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 0.8s ease 0.4s;
+  -o-transition: all 0.8s ease 0.4s;
+  transition: all 0.8s ease 0.4s;
+}
+
+.services__block:first-child {
   padding-bottom: 75px;
 }
 
-.series__block:first-child,
-.series__block:nth-child(3) {
+.services__block:first-child,
+.services__block:nth-child(3) {
   margin-right: 91px;
 }
 
-.series__subtitle {
+.services__subtitle {
   font-size: 18px;
   text-align: left;
   margin-bottom: 26px;
 }
 
-.series__text {
+.services__text {
   font-size: 11px;
   text-align: left;
   letter-spacing: 0.5px;
@@ -2831,6 +2928,6 @@ h6 {
 
 .webp .header__wrapp { background-image: url(../img/header/bg-2.webp); }
 
-.webp .series__wrapper { background-image: url(../../img/series/bg.webp); }
+.webp .services__wrapper { background-image: url(../../img/services/bg.webp); }
 
 .webp .layet__wrapp { background-image: url(../img/layet/bg-layet.webp); }
