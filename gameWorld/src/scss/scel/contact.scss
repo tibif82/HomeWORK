@@ -12,6 +12,12 @@
    &__map {
       max-width: 499px;
       height: 684px;
+      @include animNegative-X;
+   }
+   &__map._active {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 0.2s;
    }
    // ********************************
    &__form {
@@ -19,6 +25,12 @@
       background-color: $formColor;
       height: 684px;
       padding: 52px 210px 0px 76px;
+      @include animPositive-X;
+   }
+   &__form._active {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 0.2s;
    }
 
    &__title {
@@ -176,4 +188,7 @@
    &__facebook:before {
       content: "\f09a";
    }
+}
+.container {
+   overflow-x: hidden;
 }
