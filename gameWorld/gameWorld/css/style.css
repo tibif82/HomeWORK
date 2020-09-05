@@ -1994,37 +1994,37 @@ h6 {
 }
 
 @media (max-width: 415px) {
-  .series__wrapper {
+  .services__wrapper {
     display: inline-block;
     padding: 55px 0px 58px 22px;
   }
 
-  .series__title {
+  .services__title {
     padding-bottom: 0px;
     font-size: 29px;
     margin-right: 0px;
   }
 
-  .series__info {
+  .services__info {
     margin-top: 45px;
   }
 
-  .series__block {
+  .services__block {
     max-width: 380px;
   }
 
-  .series__block:first-child {
+  .services__block:first-child {
     padding-bottom: 20px;
     margin-right: 0;
   }
 
-  .series__block:nth-child(2),
-  .series__block:nth-child(3) {
+  .services__block:nth-child(2),
+  .services__block:nth-child(3) {
     margin-bottom: 20px;
     margin-right: 0;
   }
 
-  .series__text {
+  .services__text {
     font-size: 13px;
   }
 
@@ -2227,31 +2227,31 @@ h6 {
     margin-left: 0;
   }
 
-  .series__wrapper {
+  .services__wrapper {
     display: inline-block;
     padding: 55px 0px 58px 22px;
   }
 
-  .series__title {
+  .services__title {
     padding-bottom: 0px;
     font-size: 29px;
     margin-right: 0px;
   }
 
-  .series__info {
+  .services__info {
     margin-top: 45px;
   }
 
-  .series__block {
+  .services__block {
     max-width: 317px;
   }
 
-  .series__block:first-child {
+  .services__block:first-child {
     padding-bottom: 20px;
   }
 
-  .series__block:nth-child(2),
-  .series__block:nth-child(3) {
+  .services__block:nth-child(2),
+  .services__block:nth-child(3) {
     margin-bottom: 20px;
   }
 
@@ -2472,20 +2472,20 @@ h6 {
     letter-spacing: -4px;
   }
 
-  .series__wrapper {
+  .services__wrapper {
     max-width: 320px;
   }
 
-  .series__title {
+  .services__title {
     padding-bottom: 0px;
     font-size: 29px;
     margin-right: 0px;
   }
 
-  .series__block:first-child,
-  .series__block:nth-child(2),
-  .series__block:nth-child(3),
-  .series__block:last-child {
+  .services__block:first-child,
+  .services__block:nth-child(2),
+  .services__block:nth-child(3),
+  .services__block:last-child {
     margin-right: 15px;
   }
 
@@ -2612,12 +2612,12 @@ h6 {
     margin-bottom: 20px;
   }
 
-  .series__wrapper {
+  .services__wrapper {
     padding: 55px 110px 58px 110px;
     display: inline-block;
   }
 
-  .series__title {
+  .services__title {
     padding-bottom: 0px;
     font-size: 29px;
     margin-right: 0px;
@@ -2740,15 +2740,15 @@ h6 {
     margin-bottom: 20px;
   }
 
-  .series__wrapper {
+  .services__wrapper {
     padding: 40px 20px 40px 40px;
   }
 
-  .series__title {
+  .services__title {
     margin-right: 150px;
   }
 
-  .series__info {
+  .services__info {
     margin-top: 60px;
   }
 
