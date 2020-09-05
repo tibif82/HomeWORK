@@ -1918,6 +1918,23 @@ h6 {
   letter-spacing: -3px;
   text-align: center;
   padding-bottom: 57px;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  opacity: 0;
+  -webkit-transition: all 0.8s ease 0s;
+  -o-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
+
+.layet__title._active {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 0.8s ease 0.4s;
+  -o-transition: all 0.8s ease 0.4s;
+  transition: all 0.8s ease 0.4s;
 }
 
 .layet__title:first-letter {
@@ -1939,6 +1956,103 @@ h6 {
 
 .layet__item {
   color: #fff;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  opacity: 0;
+  -webkit-transition: all 0.8s ease 0s;
+  -o-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
+
+.layet__item._active:nth-child(1) {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 0.8s ease 0.4s;
+  -o-transition: all 0.8s ease 0.4s;
+  transition: all 0.8s ease 0.4s;
+}
+
+.layet__item._active:nth-child(2) {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 0.8s ease 0.8s;
+  -o-transition: all 0.8s ease 0.8s;
+  transition: all 0.8s ease 0.8s;
+}
+
+.layet__item._active:nth-child(3) {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 0.8s ease 1.2s;
+  -o-transition: all 0.8s ease 1.2s;
+  transition: all 0.8s ease 1.2s;
+}
+
+.layet__item._active:nth-child(4) {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 0.8s ease 1.6s;
+  -o-transition: all 0.8s ease 1.6s;
+  transition: all 0.8s ease 1.6s;
+}
+
+.layet__item._active:nth-child(5) {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 0.8s ease 2s;
+  -o-transition: all 0.8s ease 2s;
+  transition: all 0.8s ease 2s;
+}
+
+.layet__item._active:nth-child(6) {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 0.8s ease 2.4s;
+  -o-transition: all 0.8s ease 2.4s;
+  transition: all 0.8s ease 2.4s;
+}
+
+.layet__item._active:nth-child(7) {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 0.8s ease 2.8s;
+  -o-transition: all 0.8s ease 2.8s;
+  transition: all 0.8s ease 2.8s;
+}
+
+.layet__item._active:nth-child(8) {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 0.8s ease 3.2s;
+  -o-transition: all 0.8s ease 3.2s;
+  transition: all 0.8s ease 3.2s;
+}
+
+.layet__item._active:nth-child(9) {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 0.8s ease 3.6s;
+  -o-transition: all 0.8s ease 3.6s;
+  transition: all 0.8s ease 3.6s;
 }
 
 .layet__item:hover {
@@ -1961,6 +2075,23 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   padding-top: 8px;
+  -webkit-transform: translateY(50%);
+      -ms-transform: translateY(50%);
+          transform: translateY(50%);
+  opacity: 0;
+  -webkit-transition: all 0.8s ease 0s;
+  -o-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
+
+.layet__social-block._active {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 0.8s ease 0.4s;
+  -o-transition: all 0.8s ease 0.4s;
+  transition: all 0.8s ease 0.4s;
 }
 
 .layet__twitter,
@@ -2021,6 +2152,10 @@ h6 {
 
 .layet__subtitle-yellow {
   color: #ffc600;
+}
+
+.container {
+  overflow-x: hidden;
 }
 
 @media (max-width: 1200px) {

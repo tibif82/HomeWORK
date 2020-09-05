@@ -18,6 +18,12 @@
       letter-spacing: -3px;
       text-align: center;
       padding-bottom: 57px;
+      @include animNegative-Y;
+   }
+   &__title._active {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 0.4s;
    }
    &__title:first-letter {
       @include fLeter;
@@ -37,11 +43,59 @@
    }
    &__item {
       color: $color-1;
+      @include animNegative-X;
    }
+   &__item._active:nth-child(1) {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 0.4s;
+   }
+   &__item._active:nth-child(2) {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 0.8s;
+   }
+   &__item._active:nth-child(3) {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 1.2s;
+   }
+   &__item._active:nth-child(4) {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 1.6s;
+   }
+   &__item._active:nth-child(5) {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 2s;
+   }
+   &__item._active:nth-child(6) {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 2.4s;
+   }
+   &__item._active:nth-child(7) {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 2.8s;
+   }
+   &__item._active:nth-child(8) {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 3.2s;
+   }
+   &__item._active:nth-child(9) {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 3.6s;
+   }
+
    &__item:hover {
       color: $color-4;
    }
    // *********************
+
    &__social:before {
       @include grayline;
       width: 115px;
@@ -50,6 +104,12 @@
    &__social-block {
       display: flex;
       padding-top: 8px;
+      @include animPositive-Y;
+   }
+   &__social-block._active {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 0.4s;
    }
    &__twitter,
    &__linkedin,
@@ -94,4 +154,7 @@
    &__subtitle-yellow {
       color: $color-4;
    }
+}
+.container {
+   overflow-x: hidden;
 }
