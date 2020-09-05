@@ -13,6 +13,12 @@
       padding-bottom: 0;
       margin-bottom: 50px;
       margin-top: 60px;
+      @include animNegative-Y;
+   }
+   &__title._active {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 0.4s;
    }
    &__title:first-letter {
       @include fLeter;
@@ -29,6 +35,14 @@
       font-size: 18px;
       margin-left: 87px;
       margin-right: 115px;
+   }
+   &__list {
+      @include animPositive-Y;
+   }
+   &__list._active {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 0.4s;
    }
 
    // **************************
@@ -49,6 +63,32 @@
    &__inner {
       display: flex;
    }
+
+   &__box:nth-child(1) {
+      @include animNegative-X;
+   }
+   &__box:nth-child(1)._active {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 0.2s;
+   }
+   &__box:nth-child(2) {
+      @include animPositive-Y;
+   }
+   &__box:nth-child(2)._active {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 0.4s;
+   }
+   &__box:nth-child(3) {
+      @include animPositive-X;
+   }
+   &__box:nth-child(3)._active {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      transition: all 0.8s ease 0.2s;
+   }
+
    &__box:nth-child(2) {
       padding: 0 110px 0 82px;
    }
@@ -78,4 +118,8 @@
       font-size: 30px;
       cursor: pointer;
    }
+}
+.container {
+   overflow-x: hidden;
+   overflow-y: hidden;
 }
