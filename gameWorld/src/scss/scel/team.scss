@@ -194,6 +194,7 @@
 }
 
 .container {
+   overflow-x: hidden;
    @media (max-width: 1025px) {
       text-align: center;
    }
