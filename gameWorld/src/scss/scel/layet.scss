@@ -121,6 +121,8 @@
    &__linkedin:hover,
    &__facebook:hover {
       background-color: $color-5;
+      transform: scale(1.5);
+      transition: all 0.8s;
    }
 
    &__twitter:before,
