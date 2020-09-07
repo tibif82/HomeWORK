@@ -992,7 +992,7 @@ h6 {
 }
 
 .services__wrapper {
-  background-image: url(../../img/services/bg.jpg);
+  background-image: url(../img/services/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -3455,6 +3455,6 @@ h6 {
 
 .webp .header__wrapp { background-image: url(../img/header/bg-2.webp); }
 
-.webp .services__wrapper { background-image: url(../../img/services/bg.webp); }
+.webp .services__wrapper { background-image: url(../img/services/bg.webp); }
 
 .webp .layet__wrapp { background-image: url(../img/layet/bg-layet.webp); }
