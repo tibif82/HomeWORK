@@ -1813,10 +1813,10 @@ h6 {
   padding-bottom: 18px;
 }
 
-.contact #name,
-.contact #mobail,
-.contact #email,
-.contact #area {
+.contact .name,
+.contact .mobile,
+.contact .email,
+.contact .area {
   font-size: 16px;
   background-color: #2046b3;
   border: 2px solid #c5c5c5;
@@ -1825,13 +1825,13 @@ h6 {
   padding-left: 15px;
 }
 
-.contact #name,
-.contact #mobail,
-.contact #email {
+.contact .name,
+.contact .mobile,
+.contact .email {
   height: 35px;
 }
 
-.contact #name {
+.contact .name {
   width: 412px;
 }
 
@@ -1864,7 +1864,7 @@ h6 {
   display: flex;
 }
 
-.contact #mobail {
+.contact .mobile {
   margin-right: 26px;
 }
 
@@ -1872,11 +1872,15 @@ h6 {
   padding-bottom: 22px;
 }
 
-.contact #area {
+.contact .area {
   width: 412px;
   height: 76px;
   padding-top: 11px;
   resize: none;
+}
+
+.contact .invalid {
+  border-color: tomato;
 }
 
 .contact .btn {
@@ -2582,13 +2586,13 @@ h6 {
     padding: 25px 210px 0 10px;
   }
 
-  #name,
-  #area {
+  .name,
+  .area {
     max-width: 375px;
   }
 
-  #mobail,
-  #email {
+  .mobile,
+  .email {
     max-width: 174px;
   }
 
@@ -2865,13 +2869,13 @@ h6 {
     font-size: 28px;
   }
 
-  #name,
-  #area {
+  .name,
+  .area {
     max-width: 335px;
   }
 
-  #mobail,
-  #email {
+  .mobile,
+  .email {
     max-width: 154px;
   }
 
@@ -3068,13 +3072,13 @@ h6 {
     padding: 25px 10px 0 8px;
   }
 
-  #name,
-  #area {
+  .name,
+  .area {
     max-width: 283px;
   }
 
-  #mobail,
-  #email {
+  .mobile,
+  .email {
     max-width: 128px;
   }
 

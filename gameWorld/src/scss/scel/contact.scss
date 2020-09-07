@@ -50,10 +50,10 @@
    &__block-text {
       padding-bottom: 18px;
    }
-   #name,
-   #mobail,
-   #email,
-   #area {
+   .name,
+   .mobile,
+   .email,
+   .area {
       font-size: 16px;
       background-color: $formColor;
       border: 2px solid $color-10;
@@ -61,13 +61,13 @@
       color: $color-1;
       padding-left: 15px;
    }
-   #name,
-   #mobail,
-   #email {
+   .name,
+   .mobile,
+   .email {
       height: 35px;
    }
 
-   #name {
+   .name {
       width: 412px;
    }
 
@@ -82,7 +82,7 @@
       max-width: 412px;
       display: flex;
    }
-   #mobail {
+   .mobile {
       margin-right: 26px;
    }
 
@@ -91,14 +91,16 @@
    &__lock-mess {
       padding-bottom: 22px;
    }
-   #area {
+   .area {
       width: 412px;
       height: 76px;
       padding-top: 11px;
       resize: none;
    }
    // *****************************
-
+   .invalid {
+      border-color: tomato;
+   }
    .btn {
       background-color: $color-4;
       color: $color-2;
