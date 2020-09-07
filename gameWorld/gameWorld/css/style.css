@@ -1298,6 +1298,18 @@ h6 {
   transition: all 0.8s ease 0.2s;
 }
 
+.team__foto-1 img:hover,
+.team__foto-2 img:hover,
+.team__foto-3 img:hover,
+.team__foto-4 img:hover {
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 .team__foto-2 {
   -webkit-transform: translateY(25%);
       -ms-transform: translateY(25%);
@@ -2339,7 +2351,7 @@ h6 {
 }
 
 @media (max-width: 1024px) {
-  .work__top {
+  __top {
     margin-left: 62px;
   }
 
@@ -2444,7 +2456,7 @@ h6 {
 }
 
 @media (max-width: 768px) {
-  .work__top {
+  __top {
     margin-left: 86px;
   }
 }
@@ -2465,6 +2477,12 @@ h6 {
 
   .header__download {
     font-size: 14px;
+  }
+
+  __bottom {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   .about__title {
@@ -2488,12 +2506,6 @@ h6 {
   .about__game,
   .about__cont {
     margin-bottom: 20px;
-  }
-
-  .work__bottom {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
 }
 
@@ -2641,6 +2653,14 @@ h6 {
 }
 
 @media (max-width: 414px) {
+  __title:first-letter {
+    margin-left: 44px;
+  }
+
+  __menu {
+    margin-left: 43px;
+  }
+
   .blog__wrapp {
     display: inline-block;
     padding-left: 12px;
@@ -2722,14 +2742,6 @@ h6 {
             align-items: center;
     width: 30px;
     height: 30px;
-  }
-
-  .work__title:first-letter {
-    margin-left: 44px;
-  }
-
-  .work__menu {
-    margin-left: 43px;
   }
 
   .team__description {
@@ -2984,11 +2996,11 @@ h6 {
 }
 
 @media (max-width: 375px) {
-  .work__title:first-letter {
+  __title:first-letter {
     margin-left: 25px;
   }
 
-  .work__menu {
+  __menu {
     margin-left: 25px;
   }
 }
@@ -3123,12 +3135,6 @@ h6 {
   }
 }
 
-@media (max-width: 320px) {
-  .work__menu {
-    margin-left: auto;
-  }
-}
-
 @media (min-width: 768px) and (max-width: 991px) {
   .container {
     text-align: start;
@@ -3148,6 +3154,18 @@ h6 {
     padding-bottom: 0px;
     font-size: 29px;
     margin-right: 0px;
+  }
+
+  __top {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  __bottom {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   .blog__wrapp {
@@ -3228,18 +3246,6 @@ h6 {
     padding-bottom: 30px;
   }
 
-  .work__top {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-
-  .work__bottom {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-
   .strategy__upper {
     margin-bottom: 5px;
   }
@@ -3277,6 +3283,18 @@ h6 {
 
   .services__info {
     margin-top: 60px;
+  }
+
+  __top {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  __bottom {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   .blog__wrapp {
@@ -3333,24 +3351,24 @@ h6 {
     padding-bottom: 30px;
   }
 
-  .work__top {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-
-  .work__bottom {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-
   .strategy__upper {
     padding: 0 97px 0 64px;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+  __top {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  __bottom {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
   .about__upper {
     display: inline-block;
     padding: 36px 30px 40px 30px;
@@ -3383,21 +3401,20 @@ h6 {
     max-width: 400px;
     font-size: 14px;
   }
-
-  .work__top {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-
-  .work__bottom {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
 }
 
 @media (min-width: 320px) and (max-width: 575px) {
+  __top {
+    margin-left: 13px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  __menu {
+    margin-left: auto;
+  }
+
   .about__upper {
     display: inline-block;
     padding: 36px 25px 40px 25px;
@@ -3407,13 +3424,6 @@ h6 {
     max-width: 400px;
     font-size: 14px;
     padding: 0 15px 0 15px;
-  }
-
-  .work__top {
-    margin-left: 13px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
 
   .strategy__upper {

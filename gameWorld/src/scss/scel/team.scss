@@ -148,6 +148,15 @@
          padding-bottom: 35px;
       }
    }
+
+   &__foto-1 img:hover,
+   &__foto-2 img:hover,
+   &__foto-3 img:hover,
+   &__foto-4 img:hover {
+      transition: all 0.8s;
+      transform: scale(1.2);
+   }
+
    &__foto-3,
    &__foto-4 {
       @media (max-width: 769px) {
