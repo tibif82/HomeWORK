@@ -4,6 +4,9 @@
 
    &__wrapper {
       padding-bottom: 111px;
+      @media (max-width: 321px) {
+         padding-bottom: 45px;
+      }
    }
 
    &__upper {

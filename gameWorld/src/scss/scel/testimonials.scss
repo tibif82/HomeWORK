@@ -67,6 +67,9 @@
          font-size: 30px;
          margin-left: 40px;
       }
+      @media (max-width: 321px) {
+         margin-left: 20px;
+      }
    }
    &__title._active {
       transform: translate(0px, 0px);

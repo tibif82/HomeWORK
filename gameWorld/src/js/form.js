@@ -19,6 +19,13 @@ validateBtn.addEventListener('click', function (e) {
    validateForm(name.value, mobile.value, email.value, area.value)
 });
 
+function clearForm() {
+   name.value = "";
+   mobile.value = "";
+   email.value = "";
+   area.value = "";
+}
+
 function validateForm(nameVal, mobileVal, emailVal, areaVal) {
    let namePattern = /^[a-z A-Z]{1,20}$/;
    let mobilePattern = /^\+\d{12}$/;
@@ -53,7 +60,9 @@ function validateForm(nameVal, mobileVal, emailVal, areaVal) {
    } else {
       area.classList.add('invalid')
    }
-   // if (isNameValid && isMobilelValid && isEmailValid && isAreaValid) {
-   //    document.querySelector('contact__valide')
-   // }
+   if (isNameValid && isMobileValid && isEmailValid && isAreaValid) {
+      document.querySelector('.contact__valide').style.visibility = "visible";
+      clearForm();
+   }
+
 }

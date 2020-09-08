@@ -108,7 +108,7 @@
       font-size: 16px;
       font-weight: 600;
       text-align: center;
-      margin-bottom: 62px;
+      margin-bottom: 10px;
    }
    .btn:hover {
       box-shadow: 0px 15px 25px -5px (darken($color-4, 40%));
@@ -135,6 +135,11 @@
       font-weight: 600;
       text-align: left;
       margin-right: 24px;
+   }
+   .contact__valide {
+      visibility: hidden;
+      color: #4ef509;
+      margin-bottom: 52px;
    }
    .address {
       margin-bottom: 28px;
